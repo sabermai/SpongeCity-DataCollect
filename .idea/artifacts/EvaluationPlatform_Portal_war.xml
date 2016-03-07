@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="EvaluationPlatform-Portal:war">
+    <output-path>$PROJECT_DIR$/EvaluationPlatform-Portal/target</output-path>
+    <root id="archive" name="SpongeCity.EvaluationPlatform.war">
+      <element id="artifact" artifact-name="EvaluationPlatform-Portal:war exploded" />
+    </root>
+  </artifact>
+</component>

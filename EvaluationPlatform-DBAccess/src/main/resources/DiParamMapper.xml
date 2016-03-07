@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="SpongeCity.EvaluationPlatform.DBAccess.Interface.IParam">
+    <resultMap id="diParamMap" type="DB_DiParam">
+        <id property="id" column="id"/>
+        <result property="mid" column="mid"/>
+        <result property="name" column="name"/>
+        <result property="column_name" column="column_name"/>
+        <result property="isCalculable" column="isCalculable"/>
+    </resultMap>
+    <select id="getParamListByMeasureId" parameterType="int" resultMap="diParamMap">
+        select * from di_param p where p.mid = #{measureId} and p.datastatus = 1
+    </select>
+</mapper>

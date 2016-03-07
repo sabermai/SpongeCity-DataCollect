@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="SpongeCity.EvaluationPlatform.DBAccess.Interface.IRule">
+    <resultMap id="diAreaRuleMap" type="DB_DiAreaRule">
+        <id property="id" column="id"/>
+        <result property="pid" column="pid"/>
+        <result property="rule" column="rule"/>
+        <result property="datastatus" column="datastatus"/>
+        <association property="param" javaType="DB_DiParam">
+            <result property="mid" column="mid"/>
+            <result property="name" column="name"/>
+            <result property="column_name" column="column_name"/>
+        </association>
+    </resultMap>
+    <resultMap id="diTimeRuleMap" type="DB_DiTimeRule">
+        <id property="id" column="id"/>
+        <result property="pid" column="pid"/>
+        <result property="rule" column="rule"/>
+        <result property="grain" column="grain"/>
+        <result property="datastatus" column="datastatus"/>
+        <association property="param" javaType="DB_DiParam">
+            <result property="mid" column="mid"/>
+            <result property="name" column="name"/>
+            <result property="column_name" column="column_name"/>
+        </association>
+    </resultMap>
+    <select id="getAreaRuleListByMeasureId" parameterType="int" resultMap="diAreaRuleMap">
+        select b.pid,a.mid,a.name,a.column_name,b.id,b.rule,b.datastatus from di_param a left join di_arearule b on a.id = b.pid
+        where a.mid = #{measureId} and a.datastatus = 1 and b.datastatus = 1
+    </select>
+    <select id="getTimeRuleListByMeasureId" parameterType="int" resultMap="diTimeRuleMap">
+        select b.pid,a.mid,a.name,a.column_name,b.id,b.rule,b.grain,b.datastatus from di_param a left join di_timerule b on a.id = b.pid
+        where a.mid = #{measureId} and a.datastatus = 1 and b.datastatus = 1
+    </select>
+</mapper>

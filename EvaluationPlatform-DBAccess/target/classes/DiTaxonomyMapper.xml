@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="SpongeCity.EvaluationPlatform.DBAccess.Interface.ITaxonomy">
+    <resultMap id="diTaxonomyMap" type="DB_DiTaxonomy">
+        <id property="id" column="id"/>
+        <result property="vid" column="vid"/>
+        <result property="name" column="name"/>
+    </resultMap>
+    <select id="getAllDiTaxonomy" resultMap="diTaxonomyMap">
+        select * from di_taxonomy t where t.datastatus = 1
+    </select>
+</mapper>

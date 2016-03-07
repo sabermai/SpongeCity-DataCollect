@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <settings>
+        <!-- Globally enables or disables any caches configured in any mapper under this configuration -->
+        <setting name="cacheEnabled" value="true"/>
+        <!-- Sets the number of seconds the driver will wait for a response from the database -->
+        <setting name="defaultStatementTimeout" value="3000"/>
+        <!-- Enables automatic mapping from classic database column names A_COLUMN to camel case classic Java property names aColumn -->
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+        <!-- Allows JDBC support for generated keys. A compatible driver is required.
+        This setting forces generated keys to be used if set to true,
+         as some drivers deny compatibility but still work -->
+        <setting name="useGeneratedKeys" value="true"/>
+    </settings>
+
+    <typeAliases>
+        <typeAlias type="SpongeCity.EvaluationPlatform.DBAccess.Model.DiTaxonomy" alias="DB_DiTaxonomy"/>
+        <typeAlias type="SpongeCity.EvaluationPlatform.DBAccess.Model.DiMeasure" alias="DB_DiMeasure"/>
+        <typeAlias type="SpongeCity.EvaluationPlatform.DBAccess.Model.DiParam" alias="DB_DiParam"/>
+        <typeAlias type="SpongeCity.EvaluationPlatform.DBAccess.Model.DiAreaRule" alias="DB_DiAreaRule"/>
+        <typeAlias type="SpongeCity.EvaluationPlatform.DBAccess.Model.DiTimeRule" alias="DB_DiTimeRule"/>
+        <typeAlias type="SpongeCity.EvaluationPlatform.DBAccess.Model.DiLog" alias="DB_DiLog"/>
+        <typeAlias type="SpongeCity.EvaluationPlatform.DBAccess.Model.DiArea" alias="DB_DiArea"/>
+        <typeAlias type="SpongeCity.EvaluationPlatform.DBAccess.Model.DiWeight" alias="DB_DiWeight"/>
+    </typeAliases>
+    <!-- Continue going here -->
+    <environments default="EvaluationPlatform">
+        <environment id="EvaluationPlatform">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://assess.mysqldb.chinacloudapi.cn:3306/assess" />
+                <property name="username" value="assess%drupal"/>
+                <property name="password" value="Assess2016!"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <mappers>
+        <mapper resource="DiTaxonomyMapper.xml"/>
+        <mapper resource="DiMeasureMapper.xml"/>
+        <mapper resource="DiParamMapper.xml"/>
+        <mapper resource="DiRuleMapper.xml"/>
+        <mapper resource="DiLogMapper.xml"/>
+        <mapper resource="DiAreaMapper.xml"/>
+        <mapper resource="DiWeightMapper.xml"/>
+    </mappers>
+</configuration>

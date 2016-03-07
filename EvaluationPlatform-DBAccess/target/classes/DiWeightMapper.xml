@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="SpongeCity.EvaluationPlatform.DBAccess.Interface.IWeight">
+    <resultMap id="diWeightMap" type="DB_DiWeight">
+        <id property="id" column="id"/>
+        <result property="mid" column="mid"/>
+        <result property="aid" column="aid"/>
+        <result property="areaname" column="name"/>
+        <result property="datastatus" column="datastatus"/>
+        <result property="parentId" column="parent"/>
+    </resultMap>
+    <select id="getWeightListByMeasureId" parameterType="int" resultMap="diWeightMap">
+        select a.id,a.mid,a.aid,a.weight,a.datastatus,b.name from di_weight a join di_area b on a.aid = b.id
+        where a.mid = #{measureId} and a.datastatus = 1
+    </select>
+</mapper>

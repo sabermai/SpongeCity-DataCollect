@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="SpongeCity.EvaluationPlatform.DBAccess.Interface.IMeasure">
+    <resultMap id="diMeasureMap" type="DB_DiMeasure">
+        <id property="id" column="id"/>
+        <result property="tid" column="tid"/>
+        <result property="di_tid" column="di_tid"/>
+        <result property="name" column="name"/>
+        <result property="table_name" column="table_name"/>
+    </resultMap>
+    <select id="getDiMeasureListByDiTaxId" parameterType="int" resultMap="diMeasureMap">
+        select * from di_measure m where m.di_tid = #{diTaxonomyId} and m.datastatus = 1
+    </select>
+    <select id="getDiMeasureById" parameterType="int" resultType="DB_DiMeasure">
+        select * from di_measure m where m.id = #{measuerId}
+    </select>
+</mapper>
