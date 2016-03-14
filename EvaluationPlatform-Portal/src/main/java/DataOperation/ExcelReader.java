@@ -76,7 +76,11 @@ public class ExcelReader {
                             ParamModel param = columnModels.get(k);
                             if (cell != null) {
                                 if (param.getDisplayname().trim().equals("区域")) {
-                                    dataModel.setArea(cell.getStringCellValue());
+                                    dataModel.setRegion(cell.getStringCellValue());
+                                } else if (param.getDisplayname().trim().equals("地段")) {
+                                    dataModel.setSection(cell.getStringCellValue());
+                                } else if (param.getDisplayname().trim().equals("单项措施")) {
+                                    dataModel.setDevice(cell.getStringCellValue());
                                 } else if (param.getDisplayname().trim().equals("采样时间")) {
                                     dataModel.setSamplingtime(cell.getDateCellValue());
                                 } else {

@@ -8,5 +8,5 @@ public enum OperateType {
     Sum,
     Average,
     Max,
-    min
+    Min
 }

@@ -9,4 +9,6 @@ import java.util.List;
  */
 public interface ITaxonomy {
     List<DiTaxonomy> getAllDiTaxonomy();
+
+    DiTaxonomy getTaxonomyById(int id);
 }

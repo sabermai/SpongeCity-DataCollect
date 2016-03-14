@@ -11,5 +11,11 @@
 
     <artifactId>SpongeCity.EvaluationPlatform</artifactId>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>SpongeCity.EvaluationPlatform</groupId>
+            <artifactId>EvaluationPlatform-DBAccess</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>

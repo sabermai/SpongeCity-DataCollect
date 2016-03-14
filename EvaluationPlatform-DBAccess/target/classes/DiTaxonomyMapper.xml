@@ -13,4 +13,7 @@
     <select id="getAllDiTaxonomy" resultMap="diTaxonomyMap">
         select * from di_taxonomy t where t.datastatus = 1
     </select>
+    <select id="getTaxonomyById" resultType="DB_DiTaxonomy" parameterType="int">
+        select * from di_taxonomy t where t.id = id
+    </select>
 </mapper>

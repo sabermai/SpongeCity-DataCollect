@@ -21,6 +21,7 @@
         <result property="pid" column="pid"/>
         <result property="rule" column="rule"/>
         <result property="grain" column="grain"/>
+        <result property="grainnumber" column="grainnumber"/>
         <result property="datastatus" column="datastatus"/>
         <association property="param" javaType="DB_DiParam">
             <result property="mid" column="mid"/>
@@ -33,7 +34,7 @@
         where a.mid = #{measureId} and a.datastatus = 1 and b.datastatus = 1
     </select>
     <select id="getTimeRuleListByMeasureId" parameterType="int" resultMap="diTimeRuleMap">
-        select b.pid,a.mid,a.name,a.column_name,b.id,b.rule,b.grain,b.datastatus from di_param a left join di_timerule b on a.id = b.pid
+        select b.pid,a.mid,a.name,a.column_name,b.id,b.rule,b.grainnumber,b.grain,b.datastatus from di_param a left join di_timerule b on a.id = b.pid
         where a.mid = #{measureId} and a.datastatus = 1 and b.datastatus = 1
     </select>
 </mapper>

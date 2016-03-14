@@ -9,6 +9,15 @@ public class MeasureModel {
     private int di_tid;
     private String name;
     private String table_name;
+    private String tax_name;
+
+    public String getTax_name() {
+        return tax_name;
+    }
+
+    public void setTax_name(String tax_name) {
+        this.tax_name = tax_name;
+    }
 
     public int getId() {
         return id;
