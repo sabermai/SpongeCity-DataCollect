@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>EvaluationPlatform-DBAccess</artifactId>
+    <artifactId>DBAccess</artifactId>
 
     <dependencies>
         <dependency>
