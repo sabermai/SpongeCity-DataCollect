@@ -12,8 +12,17 @@ public class DiLog {
     private int mid;
     private String taxonomy_name;
     private String measure_name;
+    private String table_name;
     private int status;
     private int datastatus;
+
+    public String getTable_name() {
+        return table_name;
+    }
+
+    public void setTable_name(String table_name) {
+        this.table_name = table_name;
+    }
 
     public int getId() {
         return id;

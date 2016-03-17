@@ -14,7 +14,7 @@
         <result property="parentId" column="parent"/>
     </resultMap>
     <select id="getAreaListByMeasureId" parameterType="int" resultMap="diAreaMap">
-        select a.id,a.mid,a.tid,a.name,a.datastatus,t.parent from di_area a join taxonomy_term_hierarchy t on a.tid = t.id
+        select a.id,a.mid,a.tid,a.name,a.datastatus,t.parent from di_area a join taxonomy_term_hierarchy t on a.tid = t.tid
         where a.mid = #{measureId} and a.datastatus = 1
     </select>
 </mapper>

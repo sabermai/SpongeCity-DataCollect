@@ -58,8 +58,10 @@ public class MeasureBLL {
             ParamOperation po = new ParamOperation();
             List<DiParam> diParams = po.getParamListByMeasureId(measureId);
             for (DiParam diParam : diParams) {
-                ParamModel paramModel = convertParamModel(diParam);
-                paramModels.add(paramModel);
+                if(diParam.getIsCalculable() == 1) {
+                    ParamModel paramModel = convertParamModel(diParam);
+                    paramModels.add(paramModel);
+                }
             }
             return paramModels;
         } catch (Exception ex) {
@@ -73,7 +75,7 @@ public class MeasureBLL {
             MeasureOperation mo = new MeasureOperation();
             DiMeasure diMeasure = mo.getDiMeasureById(measureId);
             TaxonomyOperation taxonomyOperation = new TaxonomyOperation();
-            DiTaxonomy diTaxonomy = taxonomyOperation.getTaxonomyById(diMeasure.getTid());
+            DiTaxonomy diTaxonomy = taxonomyOperation.getTaxonomyById(diMeasure.getDi_tid());
             measureModel = convertMeasureModel(diMeasure, diTaxonomy);
             return measureModel;
         } catch (Exception ex) {
@@ -84,10 +86,10 @@ public class MeasureBLL {
     private ParamModel convertParamModel(DiParam diParam) {
         ParamModel paramModel = new ParamModel();
         paramModel.setId(diParam.getId());
-        paramModel.setDisplayname(diParam.getColumn_name());
+        paramModel.setDisplayname(diParam.getName());
         paramModel.setIsCalculable(diParam.getIsCalculable() == 1 ? true : false);
         paramModel.setMid(diParam.getMid());
-        paramModel.setName(diParam.getName());
+        paramModel.setName(diParam.getColumn_name());
         return paramModel;
     }
 

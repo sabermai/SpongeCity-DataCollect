@@ -6,7 +6,9 @@ import SpongeCity.EvaluationPlatform.DBAccess.DataAccess.DiLogOperation;
 import SpongeCity.EvaluationPlatform.DBAccess.DataAccess.MeasureOperation;
 import SpongeCity.EvaluationPlatform.DBAccess.Model.DiLog;
 
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -40,13 +42,12 @@ public class LogBLL {
         LogModel logModel = new LogModel();
         logModel.setId(diLog.getId());
         logModel.setFilename(diLog.getFile_name());
-        logModel.setImporttime(diLog.getImport_time());
-
-        MeasureBLL measureBLL = new MeasureBLL();
-        MeasureModel measure = measureBLL.getMeasureByMeasuerId(diLog.getMid());
-        logModel.setMeasurename(measure.getName());
-        logModel.setTablename(measure.getTable_name());
-        logModel.setTaxname(measure.getTax_name());
+        Date importTime = diLog.getImport_time();
+        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd hh:mm:ss");
+        logModel.setImporttime(sdf.format(importTime));
+        logModel.setMeasurename(diLog.getMeasure_name());
+        logModel.setTablename(diLog.getTable_name());
+        logModel.setTaxname(diLog.getTaxonomy_name());
         return logModel;
     }
 }

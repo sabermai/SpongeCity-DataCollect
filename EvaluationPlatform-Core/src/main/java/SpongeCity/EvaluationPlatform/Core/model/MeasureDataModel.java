@@ -10,10 +10,19 @@ public class MeasureDataModel {
     //指标名称
     private String measuername;
     private int mid;
+    private int tid;
     //对应的数据库表名称
     private String dbtablename;
     //该sheet的所有数据对象
     private List<DataModel> dataModels;
+
+    public int getTid() {
+        return tid;
+    }
+
+    public void setTid(int tid) {
+        this.tid = tid;
+    }
 
     public String getMeasuername() {
         return measuername;

@@ -1,0 +1,360 @@
+@charset "UTF-8";
+     
+ 
+a {
+	color: #339;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+
+}
+.main{width:0px;margin:0 auto;}
+.main .divblock {
+	padding:0px 0;
+	border-bottom: solid 1px #ccc;
+}
+
+/* button 
+---------------------------------------------- */
+.button {
+	display: inline-block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	vertical-align: baseline;
+	margin: 0px;
+	outline: none;
+	cursor: pointer;
+	text-decoration: none;
+	font:12px/100% Arial,Helvetica,sans-serif;
+	padding: .5em 1em .40em 0.8em;
+	text-align:center;
+ 	 
+}
+.button:hover {
+	text-decoration: none;
+}
+ 
+/* white */
+.white {
+	color: #606060;
+	border: solid 1px #b7b7b7;
+	background: #fff;
+	float: right;
+	margin-right:14px;
+	margin-top:4px;
+	
+ 
+}
+.white:hover {
+	background: #ededed;
+ 
+}
+
+.white:active {
+	color: #999;
+ 
+}
+body {
+	margin: 0;
+	font: normal 13px "Microsoft YaHei";
+	color: #000;
+	font-size: 12px;
+	line-height: 20px;
+}
+p{
+ 
+	font-size:14px;
+ 
+ 
+}
+
+html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft Yahei"
+}
+
+html,body,div,h1,ul,li,select,p,iframe,input,textarea {
+	margin: 0;
+	padding: 0;
+}
+
+a:link,a:visited,a:hover,a:active {
+	list-style: none;
+	text-decoration: none;
+	color: #909090;
+}
+
+a:hover {
+	list-style: none;
+	text-decoration: underline;
+	color: #1A5CC6;
+}
+
+.table {
+	padding: 0;
+	margin: 0;
+	position: relative;
+	margin: 0 auto;
+}
+
+.table tbody tr th{
+	background: #044599 no-repeat;
+	text-align: center;
+	border-left: 1px solid #02397F;
+	border-right: 1px solid #02397F;
+	border-bottom: 1px solid #02397F;
+	border-top: 2px solid #02397F;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #fff;
+	height: 37px;
+	border:1px;
+ 
+}
+  
+
+.table tbody tr  {
+	text-align: center;
+	border-left: 1px solid #ECECEC;
+	border-right: 1px solid #ECECEC;
+	border-bottom: 1px solid #ECECEC;
+	font-size: 13px;
+	color:#2e2e2e;
+	height: 37px;
+}
+
+.table tbody td {
+	text-align: center;
+	border-left: 1px solid #ECECEC;
+	border-right: 1px solid #ECECEC;
+	border-bottom: 1px solid #ECECEC;
+	font-size: 13px;
+	color:#2e2e2e;
+	height: 37px;
+}
+
+.table tbody tr th {
+	text-align: center;
+	background-color:#eeeeee;
+	border:1px;
+ 
+	font-size: 13px;
+	color:#000;
+	height: 37px;
+}
+
+.ui_text_indent {
+	text-indent: 5px;
+	clear: both;
+}
+
+.ui_text_ct {
+	text-align: center;
+}
+
+.ui_text_lt {
+	text-align: left;
+}
+
+.ui_text_rt {
+	text-align: right;
+}
+
+.ui_flt {
+	float: left;
+}
+
+.ui_frt {
+	float: right;
+}
+
+.ui_area01 {
+	width: 300px;
+	height: 50px;
+	margin: 2px 2px 2px 5px;
+	outline: 0;
+	padding: 5px;
+	border: 1px solid;
+	border-color: #C0C0C0 #D9D9D9 #D9D9D9;
+	border-radius: 2px;
+	background: #FFF;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0
+		rgba(255, 255, 255, 0.2);
+	-webkit-transition: box-shadow, border-color .5s ease-in-out;
+	-moz-transition: box-shadow, border-color .5s ease-in-out;
+	-o-transition: box-shadow, border-color .5s ease-in-out;
+}
+
+.ui_select01 {
+	width: 130px;
+	height: 28px;
+	margin: 22px 13px 5px 7px;
+	font-size: 13px;
+	/* [disabled]padding-bottom: 10px; */
+	/* [disabled]margin-bottom: 6px; */
+}
+
+.ui_select02 {
+	width: 80px;
+	height: 30px;
+	margin: 2px 2px 2px 5px;
+}
+
+.ui_input_txt01 {
+	width: 25px;
+	height: 16px;
+	margin: 1px 1px 1px 5px;
+	outline: 0;
+	padding: 5px;
+	border: 1px solid;
+	border-color: #C0C0C0 #D9D9D9 #D9D9D9;
+	border-radius: 2px;
+	background: #FFF;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0
+		rgba(255, 255, 255, 0.2);
+	-webkit-transition: box-shadow, border-color .5s ease-in-out;
+	-moz-transition: box-shadow, border-color .5s ease-in-out;
+	-o-transition: box-shadow, border-color .5s ease-in-out;
+}
+
+.ui_input_txt02 {
+	width: 150px;
+	height: 18px;
+	margin: 2px 2px 2px 5px;
+	outline: 0;
+	padding: 5px;
+	border: 1px solid;
+	border-color: #C0C0C0 #D9D9D9 #D9D9D9;
+	border-radius: 2px;
+	background: #FFF;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0
+		rgba(255, 255, 255, 0.2);
+	-webkit-transition: box-shadow, border-color .5s ease-in-out;
+	-moz-transition: box-shadow, border-color .5s ease-in-out;
+	-o-transition: box-shadow, border-color .5s ease-in-out;
+}
+
+.ui_input_txt03 {
+	width: 300px;
+	height: 18px;
+	margin: 2px 2px 2px 5px;
+	outline: 0;
+	padding: 5px;
+	border: 1px solid;
+	border-color: #C0C0C0 #D9D9D9 #D9D9D9;
+	border-radius: 2px;
+	background: #FFF;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1), 0 1px 0
+		rgba(255, 255, 255, 0.2);
+	-webkit-transition: box-shadow, border-color .5s ease-in-out;
+	-moz-transition: box-shadow, border-color .5s ease-in-out;
+	-o-transition: box-shadow, border-color .5s ease-in-out;
+}
+
+.ui_input_btn01 {
+	width: 78px;
+	height: 29px;
+	line-height: 28px;
+	text-align: center;
+	border-style: none;
+	cursor: pointer;
+	font-family: "Microsoft YaHei", "微软雅黑", "sans-serif";
+	background-image: url(../images/login/btn.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-color: #FFF;
+}
+.ui_input_btn03 {
+	width: 40px;
+	height: 23px;
+	line-height: 23px;
+	text-align: center;
+	border-style: none;
+	cursor: pointer;
+	color:#FFF;
+	font-family: "Microsoft YaHei", "微软雅黑", "sans-serif";
+	background-image:url(../img/login/images/but1_03.png)
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-color: #dd6566;
+}
+.ui_input_btn03:hover {width: 40px;
+	height: 23px;
+	line-height: 23px;
+	text-align: center;
+	border-style: none;
+	cursor: pointer;
+	color:#FFF;
+	font-family: "Microsoft YaHei", "微软雅黑", "sans-serif";
+	background-image:url(../img/login/images/but1_04.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-color: #dd6566;
+}
+	
+.ui_input_btn01:hover {
+	width: 78px;
+	height: 29px;
+	line-height: 28px;
+	text-align: center;
+	border-style: none;
+	cursor: pointer;
+	font-family: "Microsoft YaHei", "微软雅黑", "sans-serif";
+	color: #666;
+	background-image: url(../img/login/btn_hover.png);
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	background-color: #FFF;
+}
+
+.ui_input_btn02 {
+	width: 90px;
+	height: 30px;
+	line-height: 30px;
+	color: #4f6b72;
+	cursor: pointer;
+	color: #4f6b72;
+}
+
+.ui_txt_bold01 {
+	color: red;
+	font-weight: bolder;
+}
+
+.ui_txt_bold02 {
+	color: green;
+	font-weight: bolder;
+}
+
+.ui_txt_bold03 {
+	color: blue;
+	font-weight: bolder;
+}
+
+.ui_txt_bold04 {
+	color: #4470AF;
+	font-weight: bolder;
+}
+
+.ui_txt_bold05 {
+	color: black;
+	font-weight: bolder;
+}
+
+.ui_txt_bg01 {
+	background: #D1D1C8;
+}
+
+.ui_file{
+	border:2px solid #D8D2D2; height:25px; line-height:25px; width:189px; margin-left:5px; cursor:pointer;
+}

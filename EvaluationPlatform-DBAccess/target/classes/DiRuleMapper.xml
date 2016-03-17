@@ -10,11 +10,9 @@
         <result property="pid" column="pid"/>
         <result property="rule" column="rule"/>
         <result property="datastatus" column="datastatus"/>
-        <association property="param" javaType="DB_DiParam">
-            <result property="mid" column="mid"/>
-            <result property="name" column="name"/>
-            <result property="column_name" column="column_name"/>
-        </association>
+        <result property="mid" column="mid"/>
+        <result property="name" column="name"/>
+        <result property="column_name" column="column_name"/>
     </resultMap>
     <resultMap id="diTimeRuleMap" type="DB_DiTimeRule">
         <id property="id" column="id"/>
@@ -23,11 +21,9 @@
         <result property="grain" column="grain"/>
         <result property="grainnumber" column="grainnumber"/>
         <result property="datastatus" column="datastatus"/>
-        <association property="param" javaType="DB_DiParam">
-            <result property="mid" column="mid"/>
-            <result property="name" column="name"/>
-            <result property="column_name" column="column_name"/>
-        </association>
+        <result property="mid" column="mid"/>
+        <result property="name" column="name"/>
+        <result property="column_name" column="column_name"/>
     </resultMap>
     <select id="getAreaRuleListByMeasureId" parameterType="int" resultMap="diAreaRuleMap">
         select b.pid,a.mid,a.name,a.column_name,b.id,b.rule,b.datastatus from di_param a left join di_arearule b on a.id = b.pid

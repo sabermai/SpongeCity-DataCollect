@@ -12,10 +12,11 @@ import java.util.List;
  */
 public class AreaBLL {
     private List<DiArea> diAreas = new ArrayList<DiArea>();
+
     //arg:di_measureµÄid×Ö¶Î
     public List<AreaModel> getAreaHierarchy(int measureId) {
         try {
-            diAreas = getAreaListByTaxId(measureId);
+            diAreas = getAreaListByMeasureId(measureId);
             if (diAreas != null && diAreas.size() > 0) {
                 List<AreaModel> areas = new ArrayList<AreaModel>();
 
@@ -65,7 +66,7 @@ public class AreaBLL {
         }
     }
 
-    private List<DiArea> getAreaListByTaxId(int measureId) {
+    private List<DiArea> getAreaListByMeasureId(int measureId) {
         List<DiArea> areas = new ArrayList<DiArea>();
         try {
             AreaOperation ao = new AreaOperation();
@@ -80,7 +81,7 @@ public class AreaBLL {
         List<AreaModel> areas = new ArrayList<AreaModel>();
         try {
             for (DiArea diArea : diAreas) {
-                if (diArea.getParentId() == 0) {
+                if (!existParentArea(diArea)) {
                     AreaModel area = new AreaModel();
                     area = convertAreaModel(diArea);
                     area.setName(diArea.getName());
@@ -93,6 +94,15 @@ public class AreaBLL {
         } catch (Exception e) {
             return null;
         }
+    }
+
+    private boolean existParentArea(DiArea diArea) {
+        for (DiArea area : diAreas) {
+            if (area.getTid() == diArea.getParentId()) {
+                return true;
+            }
+        }
+        return false;
     }
 
     private AreaModel convertAreaModel(DiArea diArea) {

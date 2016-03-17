@@ -148,9 +148,9 @@ public class DataBLL {
         logOperation.updateLog(logId);
     }
 
-    public void deleteData(int logId, String tableName) throws Exception {
+    public int deleteData(int logId, String tableName) throws Exception {
         DataOperation dataOperation = new DataOperation();
-        dataOperation.deleteData(logId,tableName);
+        return dataOperation.deleteData(logId, tableName);
     }
 
     //region private method

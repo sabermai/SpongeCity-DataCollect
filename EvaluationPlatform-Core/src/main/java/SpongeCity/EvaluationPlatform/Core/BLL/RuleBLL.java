@@ -46,7 +46,7 @@ public class RuleBLL {
         }
     }
 
-    public List<WeightModel> getWeightListBy(int measureId) {
+    public List<WeightModel> getWeightListByMeasuerId(int measureId, int taxId) {
         try {
             List<WeightModel> weights = new ArrayList<WeightModel>();
             List<DiWeight> diWeights = new ArrayList<DiWeight>();
@@ -95,9 +95,9 @@ public class RuleBLL {
         weightModel.setAid(diWeight.getAid());
         weightModel.setAreaname(diWeight.getAreaname());
         weightModel.setWeight(diWeight.getWeight());
-        weightModel.setRegion(area.getRegionName());
-        weightModel.setSection(area.getSectionName());
-        weightModel.setDevice(area.getDeviceName());
+        weightModel.setRegion(area.getRegionName() == null ? "" : area.getRegionName());
+        weightModel.setSection(area.getSectionName() == null ? "" : area.getSectionName());
+        weightModel.setDevice(area.getDeviceName() == null ? "" : area.getDeviceName());
         return weightModel;
     }
 

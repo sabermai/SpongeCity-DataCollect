@@ -12,15 +12,12 @@
         <result property="mid" column="mid"/>
         <result property="status" column="status"/>
         <result property="datastatus" column="datastatus"/>
-        <association property="measure" javaType="DB_DiMeasure">
-            <result property="measure_name" column="measure_name"/>
-        </association>
-        <association property="taxonomy" javaType="DB_DiTaxonomy">
-            <result property="taxonomy_name" column="taxonomy_name"/>
-        </association>
+        <result property="measure_name" column="measure_name"/>
+        <result property="taxonomy_name" column="taxonomy_name"/>
+        <result property="table_name" column="table_name"/>
     </resultMap>
     <select id="getPageDivisionDiLogList" parameterType="Map" resultMap="diLogMap">
-        select a.id,a.import_time,a.file_name,a.mid,a.status,a.datastatus,b.name as measure_name,c.name as taxonomy_name
+        select a.id,a.import_time,a.file_name,a.mid,a.status,a.datastatus,b.name as measure_name,b.table_name,c.name as taxonomy_name
         from di_log a join di_measure b on a.mid = b.id join di_taxonomy c on c.id = b.di_tid where a.datastatus = 1 limit ${itemIndex},${pageSize}
     </select>
     <select id="getDiLogCount" resultType="java.lang.Integer">

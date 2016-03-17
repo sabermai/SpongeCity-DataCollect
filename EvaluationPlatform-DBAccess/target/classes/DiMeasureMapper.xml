@@ -15,7 +15,7 @@
     <select id="getDiMeasureListByDiTaxId" parameterType="int" resultMap="diMeasureMap">
         select * from di_measure m where m.di_tid = #{diTaxonomyId} and m.datastatus = 1
     </select>
-    <select id="getDiMeasureById" parameterType="int" resultType="DB_DiMeasure">
-        select * from di_measure m where m.id = #{measuerId}
+    <select id="getDiMeasureById" parameterType="int" resultMap="diMeasureMap">
+        select id,tid,di_tid,name,table_name,datastatus from di_measure m where m.id = #{measuerId}
     </select>
 </mapper>

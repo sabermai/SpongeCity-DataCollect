@@ -6,6 +6,7 @@ package SpongeCity.EvaluationPlatform.Core.model;
 public class AreaModel {
     private int id;
     private int mid;
+    private int m_tid;
     private int tid;
     private int datastatus;
     private int hierarchy;
@@ -14,6 +15,14 @@ public class AreaModel {
     private String regionName;
     private String sectionName;
     private String deviceName;
+
+    public int getM_tid() {
+        return m_tid;
+    }
+
+    public void setM_tid(int m_tid) {
+        this.m_tid = m_tid;
+    }
 
     public String getName() {
         return name;

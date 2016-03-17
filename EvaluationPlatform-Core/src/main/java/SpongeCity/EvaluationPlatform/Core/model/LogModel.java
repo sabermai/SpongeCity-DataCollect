@@ -7,7 +7,7 @@ import java.util.Date;
  */
 public class LogModel {
     private int id;
-    private Date importtime;
+    private String importtime;
     private String filename;
     private String tablename;
     private String taxname;
@@ -21,11 +21,11 @@ public class LogModel {
         this.id = id;
     }
 
-    public Date getImporttime() {
+    public String getImporttime() {
         return importtime;
     }
 
-    public void setImporttime(Date importtime) {
+    public void setImporttime(String importtime) {
         this.importtime = importtime;
     }
 

@@ -53,4 +53,19 @@
         <servlet-name>default</servlet-name>
         <url-pattern>/locales/*</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
+        <url-pattern>/uploadify/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <description></description>
+        <display-name>UpFileServlet</display-name>
+        <servlet-name>UpFileServlet</servlet-name>
+        <servlet-class>DataOperation.UpFileServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UpFileServlet</servlet-name>
+        <url-pattern>/UpFileServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
