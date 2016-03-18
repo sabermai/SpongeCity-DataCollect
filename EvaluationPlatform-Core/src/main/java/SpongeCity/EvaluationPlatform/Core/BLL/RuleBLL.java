@@ -155,7 +155,7 @@ public class RuleBLL {
 
     private DiTimeRule convertDiTimeRule(TimeRuleModel timeRuleModel) {
         DiTimeRule diTimeRule = new DiTimeRule();
-        diTimeRule.setId(timeRuleModel.getId());
+        diTimeRule.setPid(timeRuleModel.getPid());
         diTimeRule.setRule(timeRuleModel.getRule());
         diTimeRule.setGrain(timeRuleModel.getGrain());
         diTimeRule.setGrainnumber(timeRuleModel.getGrainnumber());
@@ -164,7 +164,7 @@ public class RuleBLL {
 
     private DiAreaRule convertDiAreaRule(AreaRuleModel areaRuleModel) {
         DiAreaRule diAreaRule = new DiAreaRule();
-        diAreaRule.setId(areaRuleModel.getId());
+        diAreaRule.setPid(areaRuleModel.getPid());
         diAreaRule.setRule(areaRuleModel.getRule());
         return diAreaRule;
     }

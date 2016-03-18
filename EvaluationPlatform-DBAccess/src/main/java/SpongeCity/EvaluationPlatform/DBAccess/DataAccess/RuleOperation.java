@@ -86,15 +86,15 @@ public class RuleOperation {
         try {
             Connection conn = SqlConnection.getConnection();
             Statement stmt = conn.createStatement();
-            String sql = "";
+            int count = 0;
             for (DiTimeRule timeRule : timeRules) {
                 StringBuilder sb = new StringBuilder();
                 sb.append("update di_timerule set rule =" + timeRule.getRule() + ",")
-                        .append("grainumber = " + timeRule.getGrainnumber() + ",")
-                        .append("grain = " + timeRule.getGrain() + " where id = " + timeRule.getId() + ";");
-                sql += sb.toString();
+                        .append("grainnumber = " + timeRule.getGrainnumber() + ",")
+                        .append("grain = " + timeRule.getGrain() + " where pid = " + timeRule.getPid() + ";");
+                count += stmt.executeUpdate(sb.toString());
             }
-            return stmt.executeUpdate(sql);
+            return count;
         } catch (Exception ex) {
             throw ex;
         }
@@ -104,13 +104,13 @@ public class RuleOperation {
         try {
             Connection conn = SqlConnection.getConnection();
             Statement stmt = conn.createStatement();
-            String sql = "";
+            int count = 0;
             for (DiAreaRule areaRule : areaRules) {
                 StringBuilder sb = new StringBuilder();
-                sb.append("update di_arearule set rule =" + areaRule.getRule() + " where id = " + areaRule.getId() + ";");
-                sql += sb.toString();
+                sb.append("update di_arearule set rule =" + areaRule.getRule() + " where pid = " + areaRule.getPid() + ";");
+                count += stmt.executeUpdate(sb.toString());
             }
-            return stmt.executeUpdate(sql);
+            return count;
         } catch (Exception ex) {
             throw ex;
         }

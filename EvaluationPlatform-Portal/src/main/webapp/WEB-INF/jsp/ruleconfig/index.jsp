@@ -36,11 +36,6 @@
             });
         }
 
-        function weightInit(data) {
-            $.each(data, function (i, item) {
-            });
-        }
-
         function taxChange() {
             var taxId = $("#Tax").val();
             $.ajax({
@@ -82,6 +77,53 @@
                     }
             )
         }
+
+        function saveData() {
+            updateRule();
+            updateWeight();
+        }
+
+        function updateRule() {
+            var paramRuleArray = new Array();
+            $(".rules").each(function () {
+                var pid = $(this).find("td:eq(0)").attr("title");
+                var arearule = $(this).find("td:eq(1)").children().find(":checked").attr("value");
+                var timerule = $(this).find("td:eq(2)").children().find(":checked").attr("value");
+                var grain = $(this).find("td:eq(3)").children().find(":checked").attr("value");
+                var gn = $(this).find("td:eq(3)").children().first().val();
+                paramRuleArray.push({pid: pid, areaRule: arearule, timeRule: timerule, grain: grain, grainnumber: gn});
+            });
+            var jsonData = JSON.stringify(paramRuleArray);
+            $.ajax({
+                url: "/ruleconfig/updaterules",
+                type: "POST",
+                contentType: 'application/json;charset=utf-8',
+                dataType: "json",
+                data: jsonData,
+                success: function (data) {
+                }
+            });
+        }
+
+        function updateWeight() {
+            var weightArray = new Array();
+            $(".weis").each(function () {
+                var id = $(this).attr("title");
+                var weight = $(this).find("input").val();
+                alert(id + weight);
+                weightArray.push({id: id, weight: weight});
+            });
+            var jsonData = JSON.stringify(weightArray);
+            $.ajax({
+                url: "/ruleconfig/updateweights",
+                type: "POST",
+                contentType: 'application/json;charset=utf-8',
+                dataType: "json",
+                data: jsonData,
+                success: function (data) {
+                }
+            });
+        }
     </script>
     <style>
         .alt td {
@@ -115,7 +157,7 @@
                                 </c:forEach>
                             </select>
                             　
-                            <input type="button" value="保存" class="ui_input_btn01" onClick="search();"/>
+                            <input type="button" value="保存" class="ui_input_btn01" onClick="saveData();"/>
                         </p>
                     </div>
                     <div id="box_center"></div>
@@ -132,7 +174,8 @@
             <table class="table" cellspacing="0" cellpadding="0" width="100%" align="center" border="0">
                 <tr>
                     <td>
-                        <table class="table" id="ruleTable" cellspacing="0" cellpadding="0" width="100%" align="center" border="0">
+                        <table class="table" id="ruleTable" cellspacing="0" cellpadding="0" width="100%" align="center"
+                               border="0">
                             <tr>
                                 <th width="12%" style="font-weight:bold">指标参数</th>
                                 <th width="39%" style="font-weight:bold">区域维度运算规则</th>
@@ -206,7 +249,8 @@
     <div style="padding-bottom:10px;">
     </div>
 
-    <table class="table" id="weightTable" cellspacing="0" cellpadding="0" style="padding-left:26px; margin-top:0px;" width="50%"
+    <table class="table" id="weightTable" cellspacing="0" cellpadding="0" style="padding-left:26px; margin-top:0px;"
+           width="50%"
            align="left" border="0">
         <tr>
             <th width="12%" style="font-weight:bold">区域</th>
@@ -215,11 +259,11 @@
             <th width="12%" style="font-weight:bold">权重</th>
         </tr>
         <c:forEach items="${weightrules}" var="wei">
-            <tr>
+            <tr class="weis" title="${wei.id}">
                 <td>${wei.region}</td>
                 <td>${wei.section}</td>
                 <td>${wei.device}</td>
-                <td><input type="text" value="${wei.weight}"  style="width:35px;height:20px"/></td>
+                <td><input type="text" value="${wei.weight}" style="width:35px;height:20px"/></td>
             </tr>
         </c:forEach>
     </table>

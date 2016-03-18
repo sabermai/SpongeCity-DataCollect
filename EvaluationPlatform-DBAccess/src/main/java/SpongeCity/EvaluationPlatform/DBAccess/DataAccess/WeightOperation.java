@@ -52,13 +52,11 @@ public class WeightOperation {
         try {
             Connection conn = SqlConnection.getConnection();
             Statement stmt = conn.createStatement();
-            String sql = "";
+            int count = 0;
             for (DiWeight weight : weights) {
-                StringBuilder sb = new StringBuilder();
-                sb.append("update di_weight set weight =" + weight.getWeight() + " where id = " + weight.getId() + ";");
-                sql += sb.toString();
+                count += stmt.executeUpdate("update di_weight set weight =" + weight.getWeight() + " where id = " + weight.getId() + ";");
             }
-            return stmt.executeUpdate(sql);
+            return count;
         } catch (Exception ex) {
             throw ex;
         }

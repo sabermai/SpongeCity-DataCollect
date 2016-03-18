@@ -1,12 +1,16 @@
 package controller;
 
+import SpongeCity.EvaluationPlatform.Core.BLL.DataBLL;
 import SpongeCity.EvaluationPlatform.Core.BLL.MeasureBLL;
 import SpongeCity.EvaluationPlatform.Core.BLL.RuleBLL;
 import SpongeCity.EvaluationPlatform.Core.model.*;
 import SpongeCity.EvaluationPlatform.DBAccess.DataAccess.TaxonomyOperation;
+import model.MeasureWeightJsonModel;
+import model.ParamRuleJsonModel;
 import model.ParamRuleModel;
 import net.sf.json.JSONArray;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -67,6 +71,50 @@ public class RuleConfigController {
         modelAndView.addObject("paramlist", params);
         modelAndView.addObject("paramrules", jsonArray.toString());
         return modelAndView;
+    }
+
+    @RequestMapping(value = "/updaterules", method = RequestMethod.POST)
+    @ResponseBody
+    public void updateParamRules(@RequestBody List<ParamRuleJsonModel> paramRules) {
+        try {
+            RuleBLL ruleBLL = new RuleBLL();
+            List<AreaRuleModel> areaRuleModels = new ArrayList<AreaRuleModel>();
+            List<TimeRuleModel> timeRuleModels = new ArrayList<TimeRuleModel>();
+            for (ParamRuleJsonModel paramRule : paramRules) {
+                AreaRuleModel areaRule = new AreaRuleModel();
+                TimeRuleModel timeRule = new TimeRuleModel();
+                areaRule.setPid(paramRule.getPid());
+                areaRule.setRule(paramRule.getAreaRule());
+                timeRule.setPid(paramRule.getPid());
+                timeRule.setRule(paramRule.getTimeRule());
+                timeRule.setGrain(paramRule.getGrain());
+                timeRule.setGrainnumber(paramRule.getGrainnumber());
+                areaRuleModels.add(areaRule);
+                timeRuleModels.add(timeRule);
+            }
+            ruleBLL.updateAreaRuleData(areaRuleModels);
+            ruleBLL.updateTimeRuleData(timeRuleModels);
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+    }
+
+    @RequestMapping(value = "/updateweights", method = RequestMethod.POST)
+    @ResponseBody
+    public void updateWeights(@RequestBody List<MeasureWeightJsonModel> weights) {
+        try {
+            RuleBLL ruleBLL = new RuleBLL();
+            List<WeightModel> weightModels = new ArrayList<WeightModel>();
+            for (MeasureWeightJsonModel weight : weights) {
+                WeightModel weightModel = new WeightModel();
+                weightModel.setId(weight.getId());
+                weightModel.setWeight(weight.getWeight());
+                weightModels.add(weightModel);
+            }
+            ruleBLL.updateWeightData(weightModels);
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
     }
 
     private List<ParamRuleModel> convertParamRuleModel(List<ParamModel> paramList, List<TimeRuleModel> timeRuleList, List<AreaRuleModel> areaRuleList) {
