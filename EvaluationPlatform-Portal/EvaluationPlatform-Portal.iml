@@ -9,10 +9,6 @@
         <webroots>
           <root url="file://$MODULE_DIR$/src/main/webapp" relative="/" />
         </webroots>
-        <sourceRoots>
-          <root url="file://$MODULE_DIR$/src/main/java" />
-          <root url="file://$MODULE_DIR$/src/main/resources" />
-        </sourceRoots>
       </configuration>
     </facet>
   </component>
@@ -51,6 +47,12 @@
     <orderEntry type="module" module-name="EvaluationPlatform-Core" />
     <orderEntry type="library" name="Maven: org.apache.poi:poi-ooxml:3.14-beta1" level="project" />
     <orderEntry type="library" name="Maven: org.apache.poi:poi:3.14-beta1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.xmlbeans:xmlbeans:2.6.0" level="project" />
+    <orderEntry type="library" name="Maven: stax:stax-api:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.poi:poi-ooxml-schemas:3.14" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.poi:poi-scratchpad:3.14" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.poi:ooxml-security:1.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.poi:ooxml-schemas:1.3" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: javax.servlet:jstl:1.2" level="project" />
     <orderEntry type="library" name="Maven: net.sf.json-lib:json-lib:jdk15:2.2.3" level="project" />
     <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.7.0" level="project" />

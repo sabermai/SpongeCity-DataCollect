@@ -139,7 +139,7 @@ a:hover {
 	border-right: 1px solid #ECECEC;
 	border-bottom: 1px solid #ECECEC;
 	font-size: 13px;
-	color:#2e2e2e;
+	color: #909090;
 	height: 37px;
 }
 
@@ -283,7 +283,7 @@ a:hover {
 	cursor: pointer;
 	color:#FFF;
 	font-family: "Microsoft YaHei", "微软雅黑", "sans-serif";
-	background-image:url(../img/login/images/but1_03.png)
+	background-image:url(../images/login/images/but1_03.png)
 	background-repeat: no-repeat;
 	background-position: 0px 0px;
 	background-color: #dd6566;
@@ -296,7 +296,7 @@ a:hover {
 	cursor: pointer;
 	color:#FFF;
 	font-family: "Microsoft YaHei", "微软雅黑", "sans-serif";
-	background-image:url(../img/login/images/but1_04.png);
+	background-image:url(../images/login/images/but1_04.png);
 	background-repeat: no-repeat;
 	background-position: 0px 0px;
 	background-color: #dd6566;
@@ -311,7 +311,7 @@ a:hover {
 	cursor: pointer;
 	font-family: "Microsoft YaHei", "微软雅黑", "sans-serif";
 	color: #666;
-	background-image: url(../img/login/btn_hover.png);
+	background-image: url(../images/login/btn_hover.png);
 	background-repeat: no-repeat;
 	background-position: 0px 0px;
 	background-color: #FFF;

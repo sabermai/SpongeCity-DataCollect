@@ -43,6 +43,10 @@
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>default</servlet-name>
+        <url-pattern>/images/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>default</servlet-name>
         <url-pattern>/picture/*</url-pattern>
     </servlet-mapping>
     <servlet-mapping>
@@ -55,17 +59,6 @@
     </servlet-mapping>
     <servlet-mapping>
         <servlet-name>default</servlet-name>
-        <url-pattern>/uploadify/*</url-pattern>
-    </servlet-mapping>
-
-    <servlet>
-        <description></description>
-        <display-name>UpFileServlet</display-name>
-        <servlet-name>UpFileServlet</servlet-name>
-        <servlet-class>DataOperation.UpFileServlet</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>UpFileServlet</servlet-name>
-        <url-pattern>/UpFileServlet</url-pattern>
+        <url-pattern>/style/*</url-pattern>
     </servlet-mapping>
 </web-app>

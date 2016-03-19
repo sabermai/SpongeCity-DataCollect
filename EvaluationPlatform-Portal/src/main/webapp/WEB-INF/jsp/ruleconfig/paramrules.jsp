@@ -69,7 +69,7 @@
             <td id="grain${par.id}">
                 <input type="text" id="gn${par.id}" style="width:35px;height:20px"/>
                 <label>
-                    <select name="grain${par.id}" id="select${par.id}"
+                    <select name="grain${par.id}" id="select${par.id}" onkeyup="value=this.value.replace(/\D+/g,'')"
                             style="width:65px; height:21px;">
                         <option value="0">年</option>
                         <option value="1">月</option>

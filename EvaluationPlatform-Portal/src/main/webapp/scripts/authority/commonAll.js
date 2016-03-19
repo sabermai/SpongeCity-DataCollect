@@ -74,9 +74,9 @@ $(function() {
 	
 	
 	$(".table tr").mouseover(function() {
-		$(this).css({background : "#CDDAEB"});
+		//$(this).css({background : "#CDDAEB"});
 		$(this).children('td').each(function(index, ele){
-			$(ele).css({color: "#1D1E21"});
+			$(ele).css({color: "#000000"});
 		});
 	}).mouseout(function() {
 		$(this).css({background : "#FFF"});

@@ -26,8 +26,16 @@ import java.util.Map;
 /**
  * Created by saber on 2016/3/2.
  */
-public class ExcelReader {
-    public void getExcelData(File file, int measureId) {
+public class ExcelReader implements Runnable {
+    private File file;
+    private int measureId;
+
+    public ExcelReader(File file, int measureId) {
+        this.file = file;
+        this.measureId = measureId;
+    }
+
+    public void run() {
         MeasureDataModel measureDataModel = new MeasureDataModel();
         List<DataModel> dataModels = new ArrayList<DataModel>();
         Map<Integer, ParamModel> columnModels = new HashMap<Integer, ParamModel>();
@@ -53,7 +61,7 @@ public class ExcelReader {
             for (int j = 0; j < sheet.getPhysicalNumberOfRows(); j++) {
                 //region 处理一行数据
                 Row row = sheet.getRow(j);
-                if (row == null) {
+                if (row != null) {
                     if (isFirstRow) {
                         //获取列头对象列表
                         for (int k = 0; k < row.getPhysicalNumberOfCells(); k++) {

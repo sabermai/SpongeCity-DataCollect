@@ -21,7 +21,7 @@
             <td>${wei.region}</td>
             <td>${wei.section}</td>
             <td>${wei.device}</td>
-            <td><input type="text" value="${wei.weight}" style="width:35px;height:20px"/></td>
+            <td><input type="text" value="${wei.weight}" style="width:35px;height:20px" onkeyup="value=this.value.replace(/\D+/g,'')"/></td>
         </tr>
     </c:forEach>
 </table>

@@ -6,39 +6,19 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <script type="text/javascript" src="${pageContext.request.contextPath}/scripts/jquery/jquery-1.7.1.js"></script>
-    <link href="${pageContext.request.contextPath}/css/basic_layout.css" rel="stylesheet" type="text/css">
-    <link href="${pageContext.request.contextPath}/css/common_style.css" rel="stylesheet" type="text/css">
+    <link href="${pageContext.request.contextPath}/style/basic_layout.css" rel="stylesheet" type="text/css">
+    <link href="${pageContext.request.contextPath}/style/common_style.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="${pageContext.request.contextPath}/scripts/authority/commonAll.js"></script>
-    <script type="text/javascript" src="${pageContext.request.contextPath}/scripts/fancybox/jquery.fancybox-1.3.4.js"></script>
-    <script type="text/javascript" src="${pageContext.request.contextPath}/scripts/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/scripts/fancybox/jquery.fancybox-1.3.4.pack.js" media="screen">
-    <script type="text/javascript" src="${pageContext.request.contextPath}/scripts/artDialog/artDialog.js?skin=default"></script>
-
-    <script src="${pageContext.request.contextPath}/uploadify/jquery.uploadify.min.js" type="text/javascript"></script>
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/uploadify/uploadify.css">
+    <script type="text/javascript"
+            src="${pageContext.request.contextPath}/scripts/fancybox/jquery.fancybox-1.3.4.js"></script>
+    <script type="text/javascript"
+            src="${pageContext.request.contextPath}/scripts/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <script type="text/javascript"
+            src="${pageContext.request.contextPath}/scripts/artDialog/artDialog.js?skin=default"></script>
     <title>数据导入平台</title>
     <script type="text/javascript">
         $(document).ready(function () {
             checkLogPageIndex();
-            var timestamp = new Date().getTime();
-            $('#file_upload').uploadify({
-                'formData': {
-                    'timestamp': timestamp,
-                    'token': 'unique_salt' + timestamp
-                },// 设置想后台传递的参数 如果设置该参数，那么method应该设置为get，才能得到参数
-                'swf': '${pageContext.request.contextPath}/uploadify/uploadify.swf',// 指定swf文件
-                'uploader': 'UpFileServlet',// 后台处理的页面
-                'cancelImg': '${pageContext.request.contextPath}/uploadify/uploadify-cancel.png',// 取消按钮图片路径
-                "queueID": 'queue',// 上传文件页面中，你想要用来作为文件队列的元素的id, 默认为false  自动生成,  不带#
-                'method': 'get',// 设置上传格式
-                'auto': false,// 当选中文件后是否自动提交
-                'multi': true,// 是否支持多个文件上传
-                'simUploadLimit': 2,
-                'buttonText': '选择文件',// 按钮显示的文字
-                'onUploadSuccess': function (file, data, response) {// 上传成功后执行
-                    $('#' + file.id).find('.data').html(' 上传完毕');
-                }
-            });
         });
 
         function checkLogPageIndex() {
@@ -64,7 +44,7 @@
                         dataType: "json",
                         success: function (data) {
                             $("#Mea").empty();
-                            $("#Mea").append("<option value='-1'>--请选择--</option>")
+                            $("#Mea").append("<option value='-1'>--请选择--</option>");
                             $.each(data, function (i, item) {
                                 $("#Mea").append("<option value=" + item.id + ">" + item.name + "</option>");
                             });
@@ -155,6 +135,33 @@
                 });
             }
         }
+
+        function measureChange() {
+            var mid = $("#Mea").val();
+            $("#fileForm").attr("action", "/dataimport/fileupload?mid=" + mid);
+        }
+
+        function uploadvalid() {
+            var taxId = $("#Tax").val();
+            var mid = $("#Mea").val();
+            var file = $("#filePicker").val();
+            $("#errormsg").text("");
+            if (taxId == -1) {
+                $("#errormsg").text("请选择指标类型");
+                return false;
+            } else if (mid == -1) {
+                $("#errormsg").text("请选择指标");
+                return false;
+            } else if (file == "") {
+                $("#errormsg").text("请选择要上传的文件");
+                return false;
+            }
+            return true;
+        }
+
+        function ruleconfig() {
+            window.location="/ruleconfig/index";
+        }
     </script>
 </head>
 <body>
@@ -168,10 +175,11 @@
                 <div id="box_border">
                     <div id="box_top">
                         <p style="font-weight:bold; font-family:'微软雅黑'; font-size: 16.5px;" align="center">文件上传
-                            <a href="#" class="button white"> 登出 </a>
+                            <label onclick="ruleconfig()" class="button white"> 运算规则配置 </label>
                         </p>
 
-                        <p>
+                        <form id="fileForm" onsubmit="return uploadvalid()" action="/dataimport/fileupload"
+                              method="post" enctype="multipart/form-data">
                             <select name="taxnonmy" id="Tax" class="ui_select01" onchange="taxChange()">
                                 <option value="-1">--请选择--</option>
                                 <c:forEach items="${taxs}" var="tax">
@@ -179,19 +187,16 @@
                                 </c:forEach>
                             </select>
 
-                            <select name="measures" id="Mea" class="ui_select01">
+                            <select name="measures" id="Mea" class="ui_select01" onchange="measureChange()">
                                 <option value='-1'>--请选择--</option>
                             </select>
-                            <%--<a href="javascript:;" class="a-upload">
-                                <input type="file" name="" id="">
+                            <a href="javascript:;" class="a-upload">
+                                <input type="file" name="file" id="filePicker">
                             </a>
-                            <input type="button" value="上传" class="ui_input_btn01" onClick="search();"/>--%>
+                            <input type="submit" value="上传" class="ui_input_btn01"/>&npsp;
+                            <label id="errormsg" style="color: red"></label>
+                        </form>
 
-                            <input id="file_upload" name="file_upload" type="file" multiple="true"/>
-                            <a href="javascript:$('#file_upload').uploadify('upload')">开始上传</a>&nbsp;
-                            <a href="javascript:$('#file_upload').uploadify('cancel')">取消所有上传</a>
-
-                        </p>
                     </div>
                     <div id="box_center">
                     </div>

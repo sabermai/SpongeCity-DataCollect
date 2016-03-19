@@ -6,8 +6,8 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <script type="text/javascript" src="${pageContext.request.contextPath}/scripts/jquery/jquery-1.7.1.js"></script>
-    <link href="${pageContext.request.contextPath}/css/basic_layout.css" rel="stylesheet" type="text/css">
-    <link href="${pageContext.request.contextPath}/css/common_style.css" rel="stylesheet" type="text/css">
+    <link href="${pageContext.request.contextPath}/style/basic_layout.css" rel="stylesheet" type="text/css">
+    <link href="${pageContext.request.contextPath}/style/common_style.css" rel="stylesheet" type="text/css">
     <script type="text/javascript" src="${pageContext.request.contextPath}/scripts/authority/commonAll.js"></script>
     <script type="text/javascript"
             src="${pageContext.request.contextPath}/scripts/fancybox/jquery.fancybox-1.3.4.js"></script>
@@ -124,6 +124,10 @@
                 }
             });
         }
+
+        function dataimport(){
+            window.location="/dataimport/index";
+        }
     </script>
     <style>
         .alt td {
@@ -142,7 +146,9 @@
                 <div id="box_border">
                     <div id="box_top">
                         <p style="font-weight:bold; font-family:'微软雅黑'; font-size: 16.5px;" align="center">
-                            指标参数运算规则及区域权重配置 <a href="#" class="button white"> 登出 </a></p>
+                            指标参数运算规则及区域权重配置
+                            <label onclick="dataimport()" class="button white"> 数据导入 </label>
+                        </p>
 
                         <p>
                             <select name="taxnonmy" id="Tax" class="ui_select01" onchange="taxChange()">
@@ -219,7 +225,7 @@
                                             <input name="timeradio${par.id}" type="radio" value="4">
                                             取最小值<span></span></label>&nbsp;</td>
                                     <td id="grain${par.id}">
-                                        <input type="text" id="gn${par.id}" style="width:35px;height:20px"/>
+                                        <input type="text" id="gn${par.id}" style="width:35px;height:20px"  onkeyup="value=this.value.replace(/\D+/g,'')"/>
                                         <label>
                                             <select name="grain${par.id}" id="select${par.id}"
                                                     style="width:65px; height:21px;">
@@ -263,7 +269,7 @@
                 <td>${wei.region}</td>
                 <td>${wei.section}</td>
                 <td>${wei.device}</td>
-                <td><input type="text" value="${wei.weight}" style="width:35px;height:20px"/></td>
+                <td><input type="text" value="${wei.weight}" style="width:35px;height:20px" onkeyup="value=this.value.replace(/\D+/g,'')"/></td>
             </tr>
         </c:forEach>
     </table>
