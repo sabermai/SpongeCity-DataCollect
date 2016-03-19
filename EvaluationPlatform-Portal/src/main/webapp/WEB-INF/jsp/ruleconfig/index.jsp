@@ -110,7 +110,6 @@
             $(".weis").each(function () {
                 var id = $(this).attr("title");
                 var weight = $(this).find("input").val();
-                alert(id + weight);
                 weightArray.push({id: id, weight: weight});
             });
             var jsonData = JSON.stringify(weightArray);

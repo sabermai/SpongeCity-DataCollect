@@ -1,3 +1,4 @@
+import SpongeCity.EvaluationPlatform.DBAccess.Common.SqlConnection;
 import SpongeCity.EvaluationPlatform.DBAccess.DataAccess.DataOperation;
 import SpongeCity.EvaluationPlatform.DBAccess.DataAccess.MeasureOperation;
 import SpongeCity.EvaluationPlatform.DBAccess.DataAccess.TaxonomyOperation;
@@ -16,7 +17,6 @@ import javax.xml.parsers.DocumentBuilderFactory;
  */
 public class Test {
     public static void main(String[] args) throws Exception {
-        MeasureOperation operation = new MeasureOperation();
-        DiMeasure measure = operation.getDiMeasureById(3);
+        SqlConnection.getConnection();
     }
 }

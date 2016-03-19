@@ -2,50 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfba6a9d-60f7-451f-8240-79e80e4cc35d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_ooxml_schemas_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_ooxml_security_1_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_scratchpad_3_14.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
-      <change type="DELETED" beforePath="C:\Users\saber\Documents\GitHub\SpongeCity-DataCollect\EvaluationPlatform-Portal\src\java\DataOperation\UpFileServlet.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\saber\Documents\GitHub\SpongeCity-DataCollect\EvaluationPlatform-Portal\src\main\webapp\index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\saber\Documents\GitHub\SpongeCity-DataCollect\EvaluationPlatform-Portal\src\main\webapp\uploadify\jquery.uploadify.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\saber\Documents\GitHub\SpongeCity-DataCollect\EvaluationPlatform-Portal\src\main\webapp\uploadify\jquery.uploadify.min.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\saber\Documents\GitHub\SpongeCity-DataCollect\EvaluationPlatform-Portal\src\main\webapp\uploadify\uploadify-cancel.png" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\saber\Documents\GitHub\SpongeCity-DataCollect\EvaluationPlatform-Portal\src\main\webapp\uploadify\uploadify.css" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\saber\Documents\GitHub\SpongeCity-DataCollect\EvaluationPlatform-Portal\src\main\webapp\uploadify\uploadify.swf" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\saber\Documents\GitHub\SpongeCity-DataCollect\EvaluationPlatform-Portal\src\main\webapp\css\Copy of zTreeStyle.css" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/style/Copy of zTreeStyle.css" />
-      <change type="MOVED" beforePath="C:\Users\saber\Documents\GitHub\SpongeCity-DataCollect\EvaluationPlatform-Portal\src\main\webapp\css\basic_layout.css" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/style/basic_layout.css" />
-      <change type="MOVED" beforePath="C:\Users\saber\Documents\GitHub\SpongeCity-DataCollect\EvaluationPlatform-Portal\src\main\webapp\css\common_style.css" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/style/common_style.css" />
-      <change type="MOVED" beforePath="C:\Users\saber\Documents\GitHub\SpongeCity-DataCollect\EvaluationPlatform-Portal\src\main\webapp\css\jquery.fancybox-1.3.4.css" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/style/jquery.fancybox-1.3.4.css" />
-      <change type="MOVED" beforePath="C:\Users\saber\Documents\GitHub\SpongeCity-DataCollect\EvaluationPlatform-Portal\src\main\webapp\css\login_css.css" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/style/login_css.css" />
-      <change type="MOVED" beforePath="C:\Users\saber\Documents\GitHub\SpongeCity-DataCollect\EvaluationPlatform-Portal\src\main\webapp\css\main_css.css" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/style/main_css.css" />
-      <change type="MOVED" beforePath="C:\Users\saber\Documents\GitHub\SpongeCity-DataCollect\EvaluationPlatform-Portal\src\main\webapp\css\normalize.css" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/style/normalize.css" />
-      <change type="MOVED" beforePath="C:\Users\saber\Documents\GitHub\SpongeCity-DataCollect\EvaluationPlatform-Portal\src\main\webapp\css\style 2.css" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/style/style 2.css" />
-      <change type="MOVED" beforePath="C:\Users\saber\Documents\GitHub\SpongeCity-DataCollect\EvaluationPlatform-Portal\src\main\webapp\css\style.css" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/style/style.css" />
-      <change type="MOVED" beforePath="C:\Users\saber\Documents\GitHub\SpongeCity-DataCollect\EvaluationPlatform-Portal\src\main\webapp\css\zTreeStyle.css" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/style/zTreeStyle.css" />
-      <change type="MOVED" beforePath="C:\Users\saber\Documents\GitHub\SpongeCity-DataCollect\EvaluationPlatform-Portal\src\main\webapp\img\login\btn.png" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/images/login/btn.png" />
-      <change type="MOVED" beforePath="C:\Users\saber\Documents\GitHub\SpongeCity-DataCollect\EvaluationPlatform-Portal\src\main\webapp\img\login\btn_hover.png" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/images/login/btn_hover.png" />
-      <change type="MOVED" beforePath="C:\Users\saber\Documents\GitHub\SpongeCity-DataCollect\EvaluationPlatform-Portal\src\main\webapp\img\login\images\but1_03.png" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/images/login/images/but1_03.png" />
-      <change type="MOVED" beforePath="C:\Users\saber\Documents\GitHub\SpongeCity-DataCollect\EvaluationPlatform-Portal\src\main\webapp\img\login\images\but1_04.png" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/images/login/images/but1_04.png" />
-      <change type="MOVED" beforePath="C:\Users\saber\Documents\GitHub\SpongeCity-DataCollect\EvaluationPlatform-Portal\src\main\webapp\img\login\images\shangchuan_07.png" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/images/login/images/shangchuan_07.png" />
-      <change type="MOVED" beforePath="C:\Users\saber\Documents\GitHub\SpongeCity-DataCollect\EvaluationPlatform-Portal\src\main\webapp\img\login\未标题-1.png" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/images/login/未标题-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-Portal/target/classes/DataOperation/ExcelReader.class" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/target/classes/DataOperation/ExcelReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/target/classes/SpongeCity/EvaluationPlatform/DBAccess/Common/SqlConnection.class" afterPath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/target/classes/SpongeCity/EvaluationPlatform/DBAccess/Common/SqlConnection.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/java/controller/DataImportController.java" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/java/controller/DataImportController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-Portal/EvaluationPlatform-Portal.iml" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/EvaluationPlatform-Portal.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/EvaluationPlatform_Portal_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/EvaluationPlatform_Portal_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/java/DataOperation/ExcelReader.java" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/java/DataOperation/ExcelReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/scripts/authority/commonAll.js" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/scripts/authority/commonAll.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/dataimport/index.jsp" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/dataimport/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/target/classes/Test.class" afterPath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/target/classes/Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/java/Test.java" afterPath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/java/Test.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/ruleconfig/index.jsp" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/ruleconfig/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/scripts/jquery/jquery-1.7.1.js" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/scripts/jquery/jquery-1.7.1.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/ruleconfig/paramrules.jsp" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/ruleconfig/paramrules.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-Portal/pom.xml" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/spring-servlet.xml" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/spring-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/ruleconfig/weight.jsp" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/ruleconfig/weight.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SpongeCity-DataCollect.iws" />
@@ -109,13 +68,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/ruleconfig/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35820895">
-              <caret line="128" column="40" selection-start-line="128" selection-start-column="40" selection-end-line="128" selection-end-column="40" />
+            <state vertical-scroll-proportion="-3.419355">
+              <caret line="131" column="11" selection-start-line="131" selection-start-column="9" selection-end-line="131" selection-end-column="11" />
               <folding>
-                <element signature="e#4853#5530#0#HTML" expanded="false" />
                 <element signature="n#c:forEach#0;n#jsp:root#0;n#!!top" expanded="false" />
                 <element signature="n#c:forEach#1;n#jsp:root#0;n#!!top" expanded="false" />
               </folding>
@@ -127,7 +85,7 @@
         <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Portal/src/java/controller/RuleConfigController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="27" column="36" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="36" />
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding>
                 <element signature="docComment;class#RuleConfigController#0" expanded="false" />
                 <element signature="method#index#0;class#RuleConfigController#0" expanded="false" />
@@ -138,6 +96,16 @@
                 <element signature="e#3952#3967#0" expanded="true" />
                 <element signature="e#5102#5115#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SqlConnection.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/java/SpongeCity/EvaluationPlatform/DBAccess/Common/SqlConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.25614035">
+              <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -182,7 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/model/MeasureModel.java" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/model/TimeRuleModel.java" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/model/AreaRuleModel.java" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/model/WeightModel.java" />
@@ -210,7 +177,6 @@
         <option value="$PROJECT_DIR$/EvaluationPlatform-Portal/src/java/controller/MeasureController.java" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-Portal/src/java/model/ParamRuleModel.java" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/BLL/MeasureBLL.java" />
-        <option value="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/java/Test.java" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/resources/DiMeasureMapper.xml" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/java/SpongeCity/EvaluationPlatform/DBAccess/Model/DiArea.java" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/resources/DiAreaMapper.xml" />
@@ -232,6 +198,8 @@
         <option value="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/ruleconfig/weight.jsp" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-Portal/src/java/controller/DataImportController.java" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/dataimport/index.jsp" />
+        <option value="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/java/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Test.java" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/ruleconfig/index.jsp" />
       </list>
     </option>
@@ -397,7 +365,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="EvaluationPlatform-Portal" />
+              <option name="myItemId" value="EvaluationPlatform-DBAccess" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -411,25 +379,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="EvaluationPlatform-Portal" />
+              <option name="myItemId" value="EvaluationPlatform-DBAccess" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -441,105 +397,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="EvaluationPlatform-Portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ruleconfig" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpongeCity-DataCollect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpongeCity-DataCollect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EvaluationPlatform-Portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jsp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpongeCity-DataCollect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpongeCity-DataCollect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EvaluationPlatform-Portal" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpongeCity-DataCollect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpongeCity-DataCollect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EvaluationPlatform-Portal" />
+              <option name="myItemId" value="EvaluationPlatform-DBAccess" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -561,11 +419,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="EvaluationPlatform-Portal" />
+              <option name="myItemId" value="EvaluationPlatform-DBAccess" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -583,7 +445,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="EvaluationPlatform-Portal" />
+              <option name="myItemId" value="EvaluationPlatform-DBAccess" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -591,11 +453,133 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
+              <option name="myItemId" value="DBAccess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpongeCity-DataCollect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpongeCity-DataCollect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EvaluationPlatform-DBAccess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DBAccess" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpongeCity-DataCollect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpongeCity-DataCollect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EvaluationPlatform-Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpongeCity-DataCollect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpongeCity-DataCollect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EvaluationPlatform-Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpongeCity-DataCollect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpongeCity-DataCollect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EvaluationPlatform-Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpongeCity-DataCollect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpongeCity-DataCollect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EvaluationPlatform-Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1022,7 +1006,7 @@
       <workItem from="1458111734015" duration="7172000" />
       <workItem from="1458182950059" duration="28613000" />
       <workItem from="1458319108571" duration="12067000" />
-      <workItem from="1458384095535" duration="19903000" />
+      <workItem from="1458384095535" duration="20403000" />
     </task>
     <task id="LOCAL-00001" summary="check in">
       <created>1458243676623</created>
@@ -1042,11 +1026,17 @@
       <option name="project" value="LOCAL" />
       <updated>1458325828387</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="check in">
+      <created>1458412106190</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1458412106190</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="297213000" />
+    <option name="totallyTimeSpent" value="297713000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1080,7 +1070,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22239032" sideWeight="0.5114286" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.35656402" sideWeight="0.49786323" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4878444" sideWeight="0.49786323" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1142,11 +1132,17 @@
           <properties class="SpongeCity.EvaluationPlatform.Core.model.AreaModel" />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/java/SpongeCity/EvaluationPlatform/DBAccess/Common/SqlConnection.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="120" />
+      <option name="time" value="124" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1286,13 +1282,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/java/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/resources/DiMeasureMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1378,6 +1367,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5365854">
           <caret line="84" column="75" selection-start-line="84" selection-start-column="75" selection-end-line="84" selection-end-column="75" />
+          <folding>
+            <element signature="docComment;class#RuleOperation#0" expanded="false" />
+            <element signature="method#getAreaRuleListByMeasureId#0;class#RuleOperation#0" expanded="false" />
+            <element signature="method#getTimeRuleListByMeasureId#0;class#RuleOperation#0" expanded="false" />
+            <element signature="method#insertTimeRuleData#0;class#RuleOperation#0" expanded="false" />
+            <element signature="method#insertAreaRuleData#0;class#RuleOperation#0" expanded="false" />
+            <element signature="method#updateTimeRule#0;class#RuleOperation#0" expanded="false" />
+            <element signature="method#updateAreaRule#0;class#RuleOperation#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1399,13 +1397,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39626557">
           <caret line="50" column="15" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/java/SpongeCity/EvaluationPlatform/DBAccess/Common/SqlConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49377593">
-          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1515,23 +1507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Portal/src/java/controller/RuleConfigController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="36" />
-          <folding>
-            <element signature="docComment;class#RuleConfigController#0" expanded="false" />
-            <element signature="method#index#0;class#RuleConfigController#0" expanded="false" />
-            <element signature="method#getWeights#0;class#RuleConfigController#0" expanded="false" />
-            <element signature="method#getParamRules#0;class#RuleConfigController#0" expanded="false" />
-            <element signature="method#updateParamRules#0;class#RuleConfigController#0" expanded="false" />
-            <element signature="e#3871#3886#0" expanded="true" />
-            <element signature="e#3952#3967#0" expanded="true" />
-            <element signature="e#5102#5115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/dataimport/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.7096774">
@@ -1546,15 +1521,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6175439">
+          <caret line="20" column="5" selection-start-line="18" selection-start-column="4" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Portal/src/java/controller/RuleConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#RuleConfigController#0" expanded="false" />
+            <element signature="method#index#0;class#RuleConfigController#0" expanded="false" />
+            <element signature="method#getWeights#0;class#RuleConfigController#0" expanded="false" />
+            <element signature="method#getParamRules#0;class#RuleConfigController#0" expanded="false" />
+            <element signature="method#updateParamRules#0;class#RuleConfigController#0" expanded="false" />
+            <element signature="e#3871#3886#0" expanded="true" />
+            <element signature="e#3952#3967#0" expanded="true" />
+            <element signature="e#5102#5115#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/ruleconfig/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35820895">
-          <caret line="128" column="40" selection-start-line="128" selection-start-column="40" selection-end-line="128" selection-end-column="40" />
+        <state vertical-scroll-proportion="-3.419355">
+          <caret line="131" column="11" selection-start-line="131" selection-start-column="9" selection-end-line="131" selection-end-column="11" />
           <folding>
-            <element signature="e#4853#5530#0#HTML" expanded="false" />
             <element signature="n#c:forEach#0;n#jsp:root#0;n#!!top" expanded="false" />
             <element signature="n#c:forEach#1;n#jsp:root#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/java/SpongeCity/EvaluationPlatform/DBAccess/Common/SqlConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25614035">
+          <caret line="64" column="32" selection-start-line="64" selection-start-column="32" selection-end-line="64" selection-end-column="32" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1613,11 +1620,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>EvaluationPlatform-DBAccess</last-edited>
+          <last-edited>SpongeCity-DataCollect</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
