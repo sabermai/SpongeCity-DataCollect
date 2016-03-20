@@ -18,7 +18,7 @@
     </resultMap>
     <select id="getPageDivisionDiLogList" parameterType="Map" resultMap="diLogMap">
         select a.id,a.import_time,a.file_name,a.mid,a.status,a.datastatus,b.name as measure_name,b.table_name,c.name as taxonomy_name
-        from di_log a join di_measure b on a.mid = b.id join di_taxonomy c on c.id = b.di_tid where a.datastatus = 1 limit ${itemIndex},${pageSize}
+        from di_log a join di_measure b on a.mid = b.id join di_taxonomy c on c.id = b.di_tid where a.datastatus = 1 order by a.import_time desc limit ${itemIndex},${pageSize}
     </select>
     <select id="getDiLogCount" resultType="java.lang.Integer">
         select count(1) from di_log l where l.datastatus = 1

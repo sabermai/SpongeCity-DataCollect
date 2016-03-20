@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfba6a9d-60f7-451f-8240-79e80e4cc35d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/java/SpongeCity/EvaluationPlatform/DBAccess/Model/DiWeight.java" afterPath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/java/SpongeCity/EvaluationPlatform/DBAccess/Model/DiWeight.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/resources/DiWeightMapper.xml" afterPath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/resources/DiWeightMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/target/classes/DiWeightMapper.xml" afterPath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/target/classes/DiWeightMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/target/classes/MybatisConnection.xml" afterPath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/target/classes/MybatisConnection.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/java/Test.java" afterPath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/java/Test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/model/WeightModel.java" afterPath="$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/model/WeightModel.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/ruleconfig/index.jsp" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/ruleconfig/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/target/classes/SpongeCity/EvaluationPlatform/DBAccess/Model/DiWeight.class" afterPath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/target/classes/SpongeCity/EvaluationPlatform/DBAccess/Model/DiWeight.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/target/classes/Test.class" afterPath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/target/classes/Test.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/resources/DiLogMapper.xml" afterPath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/resources/DiLogMapper.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SpongeCity-DataCollect.iws" />
@@ -69,21 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="paramrules.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/ruleconfig/paramrules.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.741936">
-              <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RuleConfigController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RuleConfigController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Portal/src/java/controller/RuleConfigController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="41" column="63" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.33333334">
+              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="docComment;class#RuleConfigController#0" expanded="false" />
@@ -99,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RuleBLL.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RuleBLL.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/BLL/RuleBLL.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4105263">
-              <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
               <folding>
                 <element signature="docComment;class#RuleBLL#0" expanded="false" />
                 <element signature="method#getTimeRuleListByMeasureId#0;class#RuleBLL#0" expanded="false" />
@@ -116,6 +102,19 @@
                 <element signature="e#4997#5009#0" expanded="true" />
                 <element signature="method#convertDiTimeRule#0;class#RuleBLL#0" expanded="false" />
                 <element signature="method#convertDiAreaRule#0;class#RuleBLL#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DiLogMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/resources/DiLogMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="20" column="144" selection-start-line="20" selection-start-column="144" selection-end-line="20" selection-end-column="144" />
+              <folding>
+                <marker date="1458494944154" expanded="true" signature="906:1207" placeholder="select a.id,..di_log..." />
+                <marker date="1458494944154" expanded="true" signature="1293:1345" placeholder="select count..di_log..." />
               </folding>
             </state>
           </provider>
@@ -225,7 +224,6 @@
         <option value="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/spring-security.xml" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/java/controller/MeasureController.java" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/java/SpongeCity/EvaluationPlatform/DBAccess/Model/DiLog.java" />
-        <option value="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/resources/DiLogMapper.xml" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/java/SpongeCity/EvaluationPlatform/DBAccess/DataAccess/TaxonomyOperation.java" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/model/LogModel.java" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/BLL/LogBLL.java" />
@@ -269,6 +267,7 @@
         <option value="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/java/Test.java" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/java/SpongeCity/EvaluationPlatform/DBAccess/Model/DiWeight.java" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/model/WeightModel.java" />
+        <option value="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/resources/DiLogMapper.xml" />
       </list>
     </option>
   </component>
@@ -1246,7 +1245,7 @@
       <workItem from="1458111734015" duration="7172000" />
       <workItem from="1458182950059" duration="28613000" />
       <workItem from="1458319108571" duration="12067000" />
-      <workItem from="1458384095535" duration="38206000" />
+      <workItem from="1458384095535" duration="39291000" />
     </task>
     <task id="LOCAL-00001" summary="check in">
       <created>1458243676623</created>
@@ -1296,11 +1295,17 @@
       <option name="project" value="LOCAL" />
       <updated>1458473626302</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="check in">
+      <created>1458494478024</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1458494478024</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="315516000" />
+    <option name="totallyTimeSpent" value="316601000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1396,12 +1401,6 @@
           <properties class="SpongeCity.EvaluationPlatform.Core.model.AreaModel" />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/EvaluationPlatform-Portal/src/java/controller/RuleConfigController.java</url>
-          <line>38</line>
-          <properties />
-          <option name="timeStamp" value="133" />
-        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
@@ -1415,13 +1414,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/java/SpongeCity/EvaluationPlatform/DBAccess/DataAccess/AreaOperation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25632378">
-          <caret line="18" column="24" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/model/ParamModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1893,28 +1885,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Portal/src/java/controller/RuleConfigController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="41" column="63" selection-start-line="41" selection-start-column="63" selection-end-line="41" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;class#RuleConfigController#0" expanded="false" />
-            <element signature="e#1198#1212#0" expanded="true" />
-            <element signature="method#getWeights#0;class#RuleConfigController#0" expanded="false" />
-            <element signature="method#getParamRules#0;class#RuleConfigController#0" expanded="false" />
-            <element signature="method#updateParamRules#0;class#RuleConfigController#0" expanded="false" />
-            <element signature="e#3740#3755#0" expanded="true" />
-            <element signature="e#3821#3836#0" expanded="true" />
-            <element signature="e#4971#4984#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/BLL/RuleBLL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4105263">
-          <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
           <folding>
             <element signature="docComment;class#RuleBLL#0" expanded="false" />
             <element signature="method#getTimeRuleListByMeasureId#0;class#RuleBLL#0" expanded="false" />
@@ -1927,6 +1901,35 @@
             <element signature="e#4997#5009#0" expanded="true" />
             <element signature="method#convertDiTimeRule#0;class#RuleBLL#0" expanded="false" />
             <element signature="method#convertDiAreaRule#0;class#RuleBLL#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/resources/DiLogMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="144" selection-start-line="20" selection-start-column="144" selection-end-line="20" selection-end-column="144" />
+          <folding>
+            <marker date="1458494944154" expanded="true" signature="906:1207" placeholder="select a.id,..di_log..." />
+            <marker date="1458494944154" expanded="true" signature="1293:1345" placeholder="select count..di_log..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Portal/src/java/controller/RuleConfigController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#RuleConfigController#0" expanded="false" />
+            <element signature="e#1198#1212#0" expanded="true" />
+            <element signature="method#getWeights#0;class#RuleConfigController#0" expanded="false" />
+            <element signature="method#getParamRules#0;class#RuleConfigController#0" expanded="false" />
+            <element signature="method#updateParamRules#0;class#RuleConfigController#0" expanded="false" />
+            <element signature="e#3740#3755#0" expanded="true" />
+            <element signature="e#3821#3836#0" expanded="true" />
+            <element signature="e#4971#4984#0" expanded="true" />
           </folding>
         </state>
       </provider>
