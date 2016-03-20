@@ -184,7 +184,7 @@
                             <tr>
                                 <th width="12%" style="font-weight:bold">指标参数</th>
                                 <th width="39%" style="font-weight:bold">区域维度运算规则</th>
-                                <th width="38%" style="font-weight:bold">指标类型</th>
+                                <th width="38%" style="font-weight:bold">时间维度运算规则</th>
                                 <th width="11%" style="font-weight:bold">时间粒度</th>
                             </tr>
 
