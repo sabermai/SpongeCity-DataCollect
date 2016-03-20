@@ -1,5 +1,6 @@
 package SpongeCity.EvaluationPlatform.DBAccess.Common;
 
+import org.apache.ibatis.io.Resources;
 import org.w3c.dom.Document;
 import org.w3c.dom.NamedNodeMap;
 import org.w3c.dom.Node;
@@ -7,6 +8,9 @@ import org.w3c.dom.NodeList;
 
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
+import java.io.File;
+import java.io.InputStream;
+import java.io.Reader;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
@@ -21,7 +25,9 @@ public class SqlConnection {
             String pwd = "";
             DocumentBuilderFactory dbf = DocumentBuilderFactory.newInstance();
             DocumentBuilder db = dbf.newDocumentBuilder();
-            Document document = db.parse("EvaluationPlatform-DBAccess/src/main/resources/MybatisConnection.xml");
+            InputStream in = Resources.getResourceAsStream(Resources.getDefaultClassLoader(), "MybatisConnection.xml");
+            //File file = Resources.getResourceAsFile("MybatisConnection.xml");
+            Document document = db.parse(in);
             NodeList configs = null;
             NodeList nodes = document.getChildNodes();
             for (int i = 0; i < nodes.getLength(); i++) {

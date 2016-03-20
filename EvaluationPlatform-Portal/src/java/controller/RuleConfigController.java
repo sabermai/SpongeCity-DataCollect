@@ -1,10 +1,8 @@
 package controller;
 
-import SpongeCity.EvaluationPlatform.Core.BLL.DataBLL;
 import SpongeCity.EvaluationPlatform.Core.BLL.MeasureBLL;
 import SpongeCity.EvaluationPlatform.Core.BLL.RuleBLL;
 import SpongeCity.EvaluationPlatform.Core.model.*;
-import SpongeCity.EvaluationPlatform.DBAccess.DataAccess.TaxonomyOperation;
 import model.MeasureWeightJsonModel;
 import model.ParamRuleJsonModel;
 import model.ParamRuleModel;
