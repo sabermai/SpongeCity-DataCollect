@@ -2,6 +2,7 @@ import SpongeCity.EvaluationPlatform.DBAccess.Common.SqlConnection;
 import SpongeCity.EvaluationPlatform.DBAccess.DataAccess.DataOperation;
 import SpongeCity.EvaluationPlatform.DBAccess.DataAccess.MeasureOperation;
 import SpongeCity.EvaluationPlatform.DBAccess.DataAccess.TaxonomyOperation;
+import SpongeCity.EvaluationPlatform.DBAccess.DataAccess.WeightOperation;
 import SpongeCity.EvaluationPlatform.DBAccess.Model.DiMeasure;
 import SpongeCity.EvaluationPlatform.DBAccess.Model.DiTaxonomy;
 import org.w3c.dom.Document;
@@ -17,6 +18,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
  */
 public class Test {
     public static void main(String[] args) throws Exception {
-        SqlConnection.getConnection();
+        WeightOperation operation = new WeightOperation();
+        operation.getWeightListByMeasureId(1);
     }
 }

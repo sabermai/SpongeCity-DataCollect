@@ -8,7 +8,7 @@ public class WeightModel {
     private int mid;
     private int aid;
     private int weight;
-    private int areaname;
+    private String areaname;
     private String region;
     private String section;
     private String device;
@@ -45,11 +45,11 @@ public class WeightModel {
         this.weight = weight;
     }
 
-    public int getAreaname() {
+    public String getAreaname() {
         return areaname;
     }
 
-    public void setAreaname(int areaname) {
+    public void setAreaname(String areaname) {
         this.areaname = areaname;
     }
 

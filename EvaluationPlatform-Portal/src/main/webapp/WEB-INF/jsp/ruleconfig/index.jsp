@@ -48,6 +48,7 @@
                             $.each(data, function (i, item) {
                                 $("#Mea").append("<option value=" + item.id + ">" + item.name + "</option>");
                             });
+                            meaChange();
                         }
                     }
             )

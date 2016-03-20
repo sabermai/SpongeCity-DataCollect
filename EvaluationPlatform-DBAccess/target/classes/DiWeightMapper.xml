@@ -11,7 +11,7 @@
         <result property="aid" column="aid"/>
         <result property="areaname" column="name"/>
         <result property="datastatus" column="datastatus"/>
-        <result property="parentId" column="parent"/>
+        <result property="weight" column="weight"/>
     </resultMap>
     <select id="getWeightListByMeasureId" parameterType="int" resultMap="diWeightMap">
         select a.id,a.mid,a.aid,a.weight,a.datastatus,b.name from di_weight a join di_area b on a.aid = b.id

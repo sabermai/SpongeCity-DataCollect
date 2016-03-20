@@ -9,13 +9,13 @@ public class DiWeight {
     private int aid;
     private int weight;
     private int datastatus;
-    private int areaname;
+    private String areaname;
 
-    public int getAreaname() {
+    public String getAreaname() {
         return areaname;
     }
 
-    public void setAreaname(int areaname) {
+    public void setAreaname(String areaname) {
         this.areaname = areaname;
     }
 
