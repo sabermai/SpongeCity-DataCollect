@@ -11,6 +11,8 @@ import SpongeCity.EvaluationPlatform.DBAccess.Model.DiTimeRule;
 import SpongeCity.EvaluationPlatform.DBAccess.Model.DiWeight;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 /**
@@ -58,6 +60,7 @@ public class RuleBLL {
                 AreaModel area = getAreaModelByAreaId(areas, diWeight.getAid());
                 weights.add(convertWeightModel(diWeight, area));
             }
+            weights = sortList(weights);
             return weights;
         } catch (Exception ex) {
             return null;
@@ -110,6 +113,23 @@ public class RuleBLL {
             }
         }
         return areaModel;
+    }
+
+    private List<WeightModel> sortList(List<WeightModel> list) {
+        Collections.sort(list, new Comparator() {
+            public int compare(Object o1, Object o2) {
+                int i = ((WeightModel) o1).getRegion().compareTo(((WeightModel) o2).getRegion());
+                if (i == 0) {
+                    int j = ((WeightModel) o1).getSection().compareTo(((WeightModel) o2).getSection());
+                    if (j == 0) {
+                        return ((WeightModel) o1).getDevice().compareTo(((WeightModel) o2).getDevice());
+                    }
+                    return j;
+                }
+                return i;
+            }
+        });
+        return list;
     }
     //endregion
 

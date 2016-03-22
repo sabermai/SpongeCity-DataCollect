@@ -67,9 +67,9 @@
                     <input name="timeradio${par.id}" type="radio" value="4">
                     取最小值<span></span></label>&nbsp;</td>
             <td id="grain${par.id}">
-                <input type="text" id="gn${par.id}" style="width:35px;height:20px"/>
+                <input type="text" class="grainnumber" id="gn${par.id}" style="width:35px;height:20px" onkeyup="grainnumberchange(this.value)"/>
                 <label>
-                    <select name="grain${par.id}" id="select${par.id}" onkeyup="value=this.value.replace(/\D+/g,'')"
+                    <select name="grain${par.id}" class="grain" id="select${par.id}" onchange="grainchange(this.value)"
                             style="width:65px; height:21px;">
                         <option value="0">年</option>
                         <option value="1">月</option>

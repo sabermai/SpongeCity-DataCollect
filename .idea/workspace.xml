@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dfba6a9d-60f7-451f-8240-79e80e4cc35d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/target/classes/SpongeCity/EvaluationPlatform/DBAccess/Model/DiWeight.class" afterPath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/target/classes/SpongeCity/EvaluationPlatform/DBAccess/Model/DiWeight.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/target/classes/Test.class" afterPath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/target/classes/Test.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/resources/DiLogMapper.xml" afterPath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/resources/DiLogMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/target/classes/DiLogMapper.xml" afterPath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/target/classes/DiLogMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/resources/MybatisConnection.xml" afterPath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/resources/MybatisConnection.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/target/classes/MybatisConnection.xml" afterPath="$PROJECT_DIR$/EvaluationPlatform-DBAccess/target/classes/MybatisConnection.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/BLL/RuleBLL.java" afterPath="$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/BLL/RuleBLL.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/ruleconfig/index.jsp" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/ruleconfig/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/ruleconfig/paramrules.jsp" afterPath="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/ruleconfig/paramrules.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SpongeCity-DataCollect.iws" />
@@ -55,8 +58,8 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/ruleconfig/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.645161">
-              <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
+            <state vertical-scroll-proportion="-12.32258">
+              <caret line="99" column="43" selection-start-line="99" selection-start-column="43" selection-end-line="99" selection-end-column="43" />
               <folding>
                 <element signature="n#c:forEach#0;n#jsp:root#0;n#!!top" expanded="false" />
                 <element signature="n#c:forEach#1;n#jsp:root#0;n#!!top" expanded="false" />
@@ -65,41 +68,54 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RuleConfigController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Portal/src/java/controller/RuleConfigController.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/dataimport/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state vertical-scroll-proportion="-8.774194">
+              <caret line="121" column="23" selection-start-line="114" selection-start-column="20" selection-end-line="121" selection-end-column="23" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;class#RuleConfigController#0" expanded="false" />
-                <element signature="e#1198#1212#0" expanded="true" />
-                <element signature="method#getWeights#0;class#RuleConfigController#0" expanded="false" />
-                <element signature="method#getParamRules#0;class#RuleConfigController#0" expanded="false" />
-                <element signature="method#updateParamRules#0;class#RuleConfigController#0" expanded="false" />
-                <element signature="e#3740#3755#0" expanded="true" />
-                <element signature="e#3821#3836#0" expanded="true" />
-                <element signature="e#4971#4984#0" expanded="true" />
+                <element signature="n#c:forEach#0;n#jsp:root#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RuleBLL.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/BLL/RuleBLL.java">
+      <file leaf-file-name="RuleConfigController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Portal/src/java/controller/RuleConfigController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
+              <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="docComment;class#RuleConfigController#0" expanded="false" />
+                <element signature="method#getParamRules#0;class#RuleConfigController#0" expanded="false" />
+                <element signature="method#updateParamRules#0;class#RuleConfigController#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RuleBLL.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/BLL/RuleBLL.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.30864197">
+              <caret line="50" column="80" selection-start-line="50" selection-start-column="80" selection-end-line="50" selection-end-column="80" />
               <folding>
                 <element signature="docComment;class#RuleBLL#0" expanded="false" />
                 <element signature="method#getTimeRuleListByMeasureId#0;class#RuleBLL#0" expanded="false" />
+                <element signature="e#970#985#0" expanded="true" />
                 <element signature="method#getAreaRuleListByMeasureId#0;class#RuleBLL#0" expanded="false" />
-                <element signature="e#2042#2055#0" expanded="true" />
-                <element signature="e#2111#2121#0" expanded="true" />
+                <element signature="e#1534#1549#0" expanded="true" />
+                <element signature="method#getWeightListByMeasuerId#0;class#RuleBLL#0" expanded="false" />
+                <element signature="e#2101#2114#0" expanded="true" />
+                <element signature="e#2170#2180#0" expanded="true" />
                 <element signature="method#convertTimeRuleModel#0;class#RuleBLL#0" expanded="false" />
                 <element signature="method#convertAreaRuleModel#0;class#RuleBLL#0" expanded="false" />
+                <element signature="method#convertWeightModel#0;class#RuleBLL#0" expanded="false" />
                 <element signature="method#getAreaModelByAreaId#0;class#RuleBLL#0" expanded="false" />
-                <element signature="e#4997#5009#0" expanded="true" />
+                <element signature="e#5024#5588#0" expanded="true" />
+                <element signature="e#5587#5588#0" expanded="true" />
+                <element signature="e#5788#5800#0" expanded="true" />
                 <element signature="method#convertDiTimeRule#0;class#RuleBLL#0" expanded="false" />
                 <element signature="method#convertDiAreaRule#0;class#RuleBLL#0" expanded="false" />
               </folding>
@@ -107,87 +123,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DiLogMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/resources/DiLogMapper.xml">
+      <file leaf-file-name="DataBLL.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/BLL/DataBLL.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="144" selection-start-line="20" selection-start-column="144" selection-end-line="20" selection-end-column="144" />
+              <caret line="186" column="4" selection-start-line="186" selection-start-column="4" selection-end-line="193" selection-end-column="5" />
               <folding>
-                <marker date="1458494944154" expanded="true" signature="906:1207" placeholder="select a.id,..di_log..." />
-                <marker date="1458494944154" expanded="true" signature="1293:1345" placeholder="select count..di_log..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeightModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/model/WeightModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeightOperation.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/java/SpongeCity/EvaluationPlatform/DBAccess/DataAccess/WeightOperation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="e#686#696#0" expanded="true" />
-                <marker date="1458324866931" expanded="true" signature="1652:1709" placeholder="insert into ..." />
-                <marker date="1458324866931" expanded="true" signature="2204:2271" placeholder="update di_we..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DiWeightMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/resources/DiWeightMapper.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-              <folding>
-                <marker date="1458494118248" expanded="true" signature="704:860" placeholder="select a.id,..di_weight..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/java/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DiWeight.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/java/SpongeCity/EvaluationPlatform/DBAccess/Model/DiWeight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
-              <folding>
-                <element signature="e#672#673#0" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MeasureModel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/model/MeasureModel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding>
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#587#588#0" expanded="true" />
+                <element signature="docComment;class#DataBLL#0" expanded="false" />
+                <element signature="method#dataImport#0;class#DataBLL#0" expanded="false" />
+                <element signature="e#954#977#0" expanded="false" />
+                <element signature="e#1637#1654#0" expanded="false" />
+                <element signature="e#1833#1847#0" expanded="false" />
+                <element signature="e#2641#2657#0" expanded="false" />
+                <element signature="e#6052#6068#0" expanded="false" />
+                <element signature="e#6995#7013#0" expanded="false" />
+                <element signature="method#deleteData#0;class#DataBLL#0" expanded="false" />
+                <element signature="method#saveData#0;class#DataBLL#0" expanded="false" />
+                <element signature="method#getCalendarGrain#0;class#DataBLL#0" expanded="false" />
+                <element signature="method#getNextDateTime#0;class#DataBLL#0" expanded="false" />
+                <element signature="method#getTimeRuleByParamId#0;class#DataBLL#0" expanded="false" />
+                <element signature="method#paramDataCalculate#0;class#DataBLL#0" expanded="false" />
+                <element signature="method#getSamplingTime#0;class#DataBLL#0" expanded="false" />
+                <element signature="method#calculateOnArea#0;class#DataBLL#0" expanded="false" />
+                <element signature="method#areaDataOperation#0;class#DataBLL#0" expanded="false" />
+                <element signature="method#getAreaRuleByParamId#0;class#DataBLL#0" expanded="false" />
+                <element signature="method#areaDataCalculate#0;class#DataBLL#0" expanded="false" />
+                <element signature="method#getWeightByArea#0;class#DataBLL#0" expanded="false" />
+                <element signature="method#getAreaId#0;class#DataBLL#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -244,7 +206,6 @@
         <option value="$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/BLL/AreaBLL.java" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/BLL/DataBLL.java" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/css/common_style.css" />
-        <option value="$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/BLL/RuleBLL.java" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-Portal/src/java/model/ParamRuleJsonModel.java" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/java/SpongeCity/EvaluationPlatform/DBAccess/DataAccess/RuleOperation.java" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-Portal/src/java/model/MeasureWeightJsonModel.java" />
@@ -255,19 +216,20 @@
         <option value="$PROJECT_DIR$/EvaluationPlatform-Portal/src/java/controller/DataImportController.java" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/dataimport/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/Test.java" />
-        <option value="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/resources/MybatisConnection.xml" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-Portal/src/java/controller/RuleConfigController.java" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-Portal/pom.xml" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/java/SpongeCity/EvaluationPlatform/DBAccess/Common/SqlConnection.java" />
-        <option value="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/ruleconfig/paramrules.jsp" />
-        <option value="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/ruleconfig/index.jsp" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-DBAccess/target/classes/MybatisConnection.xml" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/resources/DiWeightMapper.xml" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/java/Test.java" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/java/SpongeCity/EvaluationPlatform/DBAccess/Model/DiWeight.java" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/model/WeightModel.java" />
         <option value="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/resources/DiLogMapper.xml" />
+        <option value="$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/resources/MybatisConnection.xml" />
+        <option value="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/ruleconfig/paramrules.jsp" />
+        <option value="$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/ruleconfig/index.jsp" />
+        <option value="$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/BLL/RuleBLL.java" />
       </list>
     </option>
   </component>
@@ -336,10 +298,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1358" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="754" />
+    <option name="width" value="1696" />
+    <option name="height" value="1036" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -383,7 +345,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -404,6 +365,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -537,6 +500,10 @@
               <option name="myItemId" value="jsp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dataimport" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -603,86 +570,6 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpongeCity-DataCollect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpongeCity-DataCollect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EvaluationPlatform-DBAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpongeCity-DataCollect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpongeCity-DataCollect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EvaluationPlatform-DBAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpongeCity-DataCollect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpongeCity-DataCollect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EvaluationPlatform-DBAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpongeCity-DataCollect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SpongeCity-DataCollect" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="EvaluationPlatform-DBAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -698,7 +585,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="EvaluationPlatform-DBAccess" />
+              <option name="myItemId" value="EvaluationPlatform-Portal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -706,19 +593,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DBAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
+              <option name="myItemId" value="DataOperation" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -732,7 +611,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="EvaluationPlatform-DBAccess" />
+              <option name="myItemId" value="EvaluationPlatform-Portal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -740,15 +619,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DBAccess" />
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -762,27 +637,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="EvaluationPlatform-DBAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DBAccess" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DataAccess" />
+              <option name="myItemId" value="EvaluationPlatform-Core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -796,7 +651,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="EvaluationPlatform-DBAccess" />
+              <option name="myItemId" value="EvaluationPlatform-Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpongeCity-DataCollect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpongeCity-DataCollect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EvaluationPlatform-Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpongeCity-DataCollect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpongeCity-DataCollect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="EvaluationPlatform-Core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -812,17 +707,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="DBAccess" />
+              <option name="myItemId" value="Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpongeCity-DataCollect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SpongeCity-DataCollect" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Common" />
+              <option name="myItemId" value="EvaluationPlatform-Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BLL" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1107,9 +1031,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="Unknown" factoryName="Unknown">
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-options />
       <gulpfile />
@@ -1245,7 +1166,8 @@
       <workItem from="1458111734015" duration="7172000" />
       <workItem from="1458182950059" duration="28613000" />
       <workItem from="1458319108571" duration="12067000" />
-      <workItem from="1458384095535" duration="39291000" />
+      <workItem from="1458384095535" duration="46011000" />
+      <workItem from="1458617351706" duration="3889000" />
     </task>
     <task id="LOCAL-00001" summary="check in">
       <created>1458243676623</created>
@@ -1301,11 +1223,17 @@
       <option name="project" value="LOCAL" />
       <updated>1458494478024</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="check in">
+      <created>1458495552934</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1458495552934</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="316601000" />
+    <option name="totallyTimeSpent" value="327210000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1317,7 +1245,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="1358" y="-8" width="1696" height="1036" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1332,14 +1260,14 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44732577" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2663126" sideWeight="0.48857144" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21507353" sideWeight="0.48857144" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28744328" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22239032" sideWeight="0.5114286" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4878444" sideWeight="0.49786323" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33481646" sideWeight="0.49786323" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1405,7 +1333,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="136" />
+      <option name="time" value="139" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1520,38 +1448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/BLL/DataBLL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22996515">
-          <caret line="17" column="96" selection-start-line="17" selection-start-column="96" selection-end-line="17" selection-end-column="96" />
-          <folding>
-            <element signature="docComment;class#DataBLL#0" expanded="false" />
-            <element signature="method#dataImport#0;class#DataBLL#0" expanded="false" />
-            <element signature="e#954#977#0" expanded="false" />
-            <element signature="e#1637#1654#0" expanded="false" />
-            <element signature="e#1833#1847#0" expanded="false" />
-            <element signature="e#2641#2657#0" expanded="false" />
-            <element signature="e#6052#6068#0" expanded="false" />
-            <element signature="e#6995#7013#0" expanded="false" />
-            <element signature="method#deleteData#0;class#DataBLL#0" expanded="false" />
-            <element signature="n#!!doc;n#saveData#0;n#DataBLL#0" expanded="false" />
-            <element signature="method#saveData#0;class#DataBLL#0" expanded="false" />
-            <element signature="method#sortList#0;class#DataBLL#0" expanded="false" />
-            <element signature="method#getCalendarGrain#0;class#DataBLL#0" expanded="false" />
-            <element signature="method#getNextDateTime#0;class#DataBLL#0" expanded="false" />
-            <element signature="method#getTimeRuleByParamId#0;class#DataBLL#0" expanded="false" />
-            <element signature="method#paramDataCalculate#0;class#DataBLL#0" expanded="false" />
-            <element signature="method#getSamplingTime#0;class#DataBLL#0" expanded="false" />
-            <element signature="method#calculateOnArea#0;class#DataBLL#0" expanded="false" />
-            <element signature="method#areaDataOperation#0;class#DataBLL#0" expanded="false" />
-            <element signature="method#getAreaRuleByParamId#0;class#DataBLL#0" expanded="false" />
-            <element signature="method#areaDataCalculate#0;class#DataBLL#0" expanded="false" />
-            <element signature="method#getWeightByArea#0;class#DataBLL#0" expanded="false" />
-            <element signature="method#getAreaId#0;class#DataBLL#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Portal/src/java/model/ParamRuleJsonModel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1563,15 +1459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5365854">
           <caret line="84" column="75" selection-start-line="84" selection-start-column="75" selection-end-line="84" selection-end-column="75" />
-          <folding>
-            <element signature="docComment;class#RuleOperation#0" expanded="false" />
-            <element signature="method#getAreaRuleListByMeasureId#0;class#RuleOperation#0" expanded="false" />
-            <element signature="method#getTimeRuleListByMeasureId#0;class#RuleOperation#0" expanded="false" />
-            <element signature="method#insertTimeRuleData#0;class#RuleOperation#0" expanded="false" />
-            <element signature="method#insertAreaRuleData#0;class#RuleOperation#0" expanded="false" />
-            <element signature="method#updateTimeRule#0;class#RuleOperation#0" expanded="false" />
-            <element signature="method#updateAreaRule#0;class#RuleOperation#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1586,7 +1473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49825785">
           <caret line="148" column="13" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1602,7 +1488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32754344">
           <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1610,7 +1495,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.32754344">
           <caret line="12" column="46" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1618,7 +1502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3573201">
           <caret line="16" column="14" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1626,7 +1509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36309522">
           <caret line="139" column="0" selection-start-line="139" selection-start-column="0" selection-end-line="139" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1638,47 +1520,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Portal/src/java/DataOperation/ExcelReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.420765">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="docComment;class#ExcelReader#0" expanded="false" />
-            <element signature="e#2293#2308#0" expanded="false" />
-            <element signature="method#getWorkbook#0;class#ExcelReader#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/dataimport/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7096774">
-          <caret line="161" column="31" selection-start-line="161" selection-start-column="31" selection-end-line="161" selection-end-column="31" />
-          <folding>
-            <element signature="e#2702#3405#0#HTML" expanded="false" />
-            <element signature="e#3897#4824#0#HTML" expanded="false" />
-            <element signature="e#4868#5811#0#HTML" expanded="false" />
-            <element signature="e#6009#6561#0#HTML" expanded="false" />
-            <element signature="n#c:forEach#0;n#jsp:root#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/resources/MybatisConnection.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="57" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/BLL/MeasureBLL.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="e#1704#1714#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1686,9 +1531,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-          <folding>
-            <element signature="e#569#581#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1704,7 +1546,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="156" column="23" selection-start-line="156" selection-start-column="23" selection-end-line="156" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1733,7 +1574,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.8350878">
           <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1741,33 +1581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.4666667">
           <caret line="195" column="20" selection-start-line="195" selection-start-column="20" selection-end-line="195" selection-end-column="20" />
-          <folding>
-            <element signature="docComment;class#DocumentBuilder#0" expanded="false" />
-            <element signature="docComment;method#DocumentBuilder#0;class#DocumentBuilder#0" expanded="false" />
-            <element signature="method#DocumentBuilder#0;class#DocumentBuilder#0" expanded="false" />
-            <element signature="docComment;method#reset#0;class#DocumentBuilder#0" expanded="false" />
-            <element signature="method#reset#0;class#DocumentBuilder#0" expanded="false" />
-            <element signature="docComment;method#parse#0;class#DocumentBuilder#0" expanded="false" />
-            <element signature="method#parse#0;class#DocumentBuilder#0" expanded="false" />
-            <element signature="docComment;method#parse#1;class#DocumentBuilder#0" expanded="false" />
-            <element signature="method#parse#1;class#DocumentBuilder#0" expanded="false" />
-            <element signature="docComment;method#parse#2;class#DocumentBuilder#0" expanded="false" />
-            <element signature="method#parse#2;class#DocumentBuilder#0" expanded="false" />
-            <element signature="docComment;method#parse#3;class#DocumentBuilder#0" expanded="false" />
-            <element signature="method#parse#3;class#DocumentBuilder#0" expanded="false" />
-            <element signature="e#6559#6619#0" expanded="false" />
-            <element signature="docComment;method#parse#4;class#DocumentBuilder#0" expanded="false" />
-            <element signature="docComment;method#isNamespaceAware#0;class#DocumentBuilder#0" expanded="false" />
-            <element signature="docComment;method#isValidating#0;class#DocumentBuilder#0" expanded="false" />
-            <element signature="docComment;method#setEntityResolver#0;class#DocumentBuilder#0" expanded="false" />
-            <element signature="docComment;method#setErrorHandler#0;class#DocumentBuilder#0" expanded="false" />
-            <element signature="docComment;method#newDocument#0;class#DocumentBuilder#0" expanded="false" />
-            <element signature="docComment;method#getDOMImplementation#0;class#DocumentBuilder#0" expanded="false" />
-            <element signature="docComment;method#getSchema#0;class#DocumentBuilder#0" expanded="false" />
-            <element signature="method#getSchema#0;class#DocumentBuilder#0" expanded="false" />
-            <element signature="docComment;method#isXIncludeAware#0;class#DocumentBuilder#0" expanded="false" />
-            <element signature="method#isXIncludeAware#0;class#DocumentBuilder#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1775,7 +1588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1783,15 +1595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/ruleconfig/paramrules.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.741936">
-          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1799,18 +1602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.4631579">
           <caret line="36" column="62" selection-start-line="36" selection-start-column="62" selection-end-line="36" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/ruleconfig/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.645161">
-          <caret line="50" column="40" selection-start-line="50" selection-start-column="40" selection-end-line="50" selection-end-column="40" />
-          <folding>
-            <element signature="n#c:forEach#0;n#jsp:root#0;n#!!top" expanded="false" />
-            <element signature="n#c:forEach#1;n#jsp:root#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1818,9 +1609,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1458494157622" expanded="true" signature="-1:-1" placeholder="select a.id,..di_weight..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1828,11 +1616,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1840,17 +1623,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/resources/DiWeightMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-          <folding>
-            <marker date="1458494118248" expanded="true" signature="704:860" placeholder="select a.id,..di_weight..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1859,17 +1631,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="34" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
           <folding>
-            <element signature="e#672#673#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="false" />
+            <element signature="e#698#699#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/model/WeightModel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1877,59 +1641,144 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#686#696#0" expanded="true" />
-            <marker date="1458324866931" expanded="true" signature="1652:1709" placeholder="insert into ..." />
-            <marker date="1458324866931" expanded="true" signature="2204:2271" placeholder="update di_we..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/BLL/RuleBLL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="32" selection-start-line="61" selection-start-column="32" selection-end-line="61" selection-end-column="32" />
-          <folding>
-            <element signature="docComment;class#RuleBLL#0" expanded="false" />
-            <element signature="method#getTimeRuleListByMeasureId#0;class#RuleBLL#0" expanded="false" />
-            <element signature="method#getAreaRuleListByMeasureId#0;class#RuleBLL#0" expanded="false" />
-            <element signature="e#2042#2055#0" expanded="true" />
-            <element signature="e#2111#2121#0" expanded="true" />
-            <element signature="method#convertTimeRuleModel#0;class#RuleBLL#0" expanded="false" />
-            <element signature="method#convertAreaRuleModel#0;class#RuleBLL#0" expanded="false" />
-            <element signature="method#getAreaModelByAreaId#0;class#RuleBLL#0" expanded="false" />
-            <element signature="e#4997#5009#0" expanded="true" />
-            <element signature="method#convertDiTimeRule#0;class#RuleBLL#0" expanded="false" />
-            <element signature="method#convertDiAreaRule#0;class#RuleBLL#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/resources/DiLogMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.50691247">
           <caret line="20" column="144" selection-start-line="20" selection-start-column="144" selection-end-line="20" selection-end-column="144" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/model/WeightModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8364055">
+          <caret line="51" column="34" selection-start-line="51" selection-start-column="34" selection-end-line="51" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/resources/DiWeightMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-DBAccess/src/main/resources/MybatisConnection.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8059965">
+          <caret line="43" column="19" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/ruleconfig/paramrules.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7873358">
+          <caret line="71" column="63" selection-start-line="71" selection-start-column="63" selection-end-line="71" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/dataimport/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.774194">
+          <caret line="121" column="23" selection-start-line="114" selection-start-column="20" selection-end-line="121" selection-end-column="23" />
           <folding>
-            <marker date="1458494944154" expanded="true" signature="906:1207" placeholder="select a.id,..di_log..." />
-            <marker date="1458494944154" expanded="true" signature="1293:1345" placeholder="select count..di_log..." />
+            <element signature="n#c:forEach#0;n#jsp:root#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Portal/src/main/webapp/WEB-INF/jsp/ruleconfig/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.32258">
+          <caret line="99" column="43" selection-start-line="99" selection-start-column="43" selection-end-line="99" selection-end-column="43" />
+          <folding>
+            <element signature="n#c:forEach#0;n#jsp:root#0;n#!!top" expanded="false" />
+            <element signature="n#c:forEach#1;n#jsp:root#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Portal/src/java/DataOperation/ExcelReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.356261">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding>
+            <element signature="docComment;class#ExcelReader#0" expanded="false" />
+            <element signature="method#getWorkbook#0;class#ExcelReader#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/BLL/DataBLL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="186" column="4" selection-start-line="186" selection-start-column="4" selection-end-line="193" selection-end-column="5" />
+          <folding>
+            <element signature="docComment;class#DataBLL#0" expanded="false" />
+            <element signature="method#dataImport#0;class#DataBLL#0" expanded="false" />
+            <element signature="e#954#977#0" expanded="false" />
+            <element signature="e#1637#1654#0" expanded="false" />
+            <element signature="e#1833#1847#0" expanded="false" />
+            <element signature="e#2641#2657#0" expanded="false" />
+            <element signature="e#6052#6068#0" expanded="false" />
+            <element signature="e#6995#7013#0" expanded="false" />
+            <element signature="method#deleteData#0;class#DataBLL#0" expanded="false" />
+            <element signature="method#saveData#0;class#DataBLL#0" expanded="false" />
+            <element signature="method#getCalendarGrain#0;class#DataBLL#0" expanded="false" />
+            <element signature="method#getNextDateTime#0;class#DataBLL#0" expanded="false" />
+            <element signature="method#getTimeRuleByParamId#0;class#DataBLL#0" expanded="false" />
+            <element signature="method#paramDataCalculate#0;class#DataBLL#0" expanded="false" />
+            <element signature="method#getSamplingTime#0;class#DataBLL#0" expanded="false" />
+            <element signature="method#calculateOnArea#0;class#DataBLL#0" expanded="false" />
+            <element signature="method#areaDataOperation#0;class#DataBLL#0" expanded="false" />
+            <element signature="method#getAreaRuleByParamId#0;class#DataBLL#0" expanded="false" />
+            <element signature="method#areaDataCalculate#0;class#DataBLL#0" expanded="false" />
+            <element signature="method#getWeightByArea#0;class#DataBLL#0" expanded="false" />
+            <element signature="method#getAreaId#0;class#DataBLL#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Portal/src/java/controller/RuleConfigController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;class#RuleConfigController#0" expanded="false" />
-            <element signature="e#1198#1212#0" expanded="true" />
-            <element signature="method#getWeights#0;class#RuleConfigController#0" expanded="false" />
             <element signature="method#getParamRules#0;class#RuleConfigController#0" expanded="false" />
             <element signature="method#updateParamRules#0;class#RuleConfigController#0" expanded="false" />
-            <element signature="e#3740#3755#0" expanded="true" />
-            <element signature="e#3821#3836#0" expanded="true" />
-            <element signature="e#4971#4984#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EvaluationPlatform-Core/src/main/java/SpongeCity/EvaluationPlatform/Core/BLL/RuleBLL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30864197">
+          <caret line="50" column="80" selection-start-line="50" selection-start-column="80" selection-end-line="50" selection-end-column="80" />
+          <folding>
+            <element signature="docComment;class#RuleBLL#0" expanded="false" />
+            <element signature="method#getTimeRuleListByMeasureId#0;class#RuleBLL#0" expanded="false" />
+            <element signature="e#970#985#0" expanded="true" />
+            <element signature="method#getAreaRuleListByMeasureId#0;class#RuleBLL#0" expanded="false" />
+            <element signature="e#1534#1549#0" expanded="true" />
+            <element signature="method#getWeightListByMeasuerId#0;class#RuleBLL#0" expanded="false" />
+            <element signature="e#2101#2114#0" expanded="true" />
+            <element signature="e#2170#2180#0" expanded="true" />
+            <element signature="method#convertTimeRuleModel#0;class#RuleBLL#0" expanded="false" />
+            <element signature="method#convertAreaRuleModel#0;class#RuleBLL#0" expanded="false" />
+            <element signature="method#convertWeightModel#0;class#RuleBLL#0" expanded="false" />
+            <element signature="method#getAreaModelByAreaId#0;class#RuleBLL#0" expanded="false" />
+            <element signature="e#5024#5588#0" expanded="true" />
+            <element signature="e#5587#5588#0" expanded="true" />
+            <element signature="e#5788#5800#0" expanded="true" />
+            <element signature="method#convertDiTimeRule#0;class#RuleBLL#0" expanded="false" />
+            <element signature="method#convertDiAreaRule#0;class#RuleBLL#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -80,11 +80,31 @@
         }
 
         function saveData() {
-            updateRule();
-            updateWeight();
+            var r1 = updateRule();
+            var r2 = updateWeight();
+            if (r1 && r2) {
+                art.dialog({
+                    icon: 'succeed',
+                    title: '友情提示',
+                    drag: false,
+                    resize: false,
+                    content: '运算规则及区域权重配置成功',
+                    ok: true,
+                });
+            } else {
+                art.dialog({
+                    icon: 'error',
+                    title: '友情提示',
+                    drag: false,
+                    resize: false,
+                    content: '运算规则及区域权重配置失败',
+                    ok: true,
+                });
+            }
         }
 
         function updateRule() {
+            var result = false;
             var paramRuleArray = new Array();
             $(".rules").each(function () {
                 var pid = $(this).find("td:eq(0)").attr("title");
@@ -98,15 +118,19 @@
             $.ajax({
                 url: "/ruleconfig/updaterules",
                 type: "POST",
+                async: false,
                 contentType: 'application/json;charset=utf-8',
                 dataType: "json",
                 data: jsonData,
                 success: function (data) {
+                    result = true;
                 }
             });
+            return result;
         }
 
         function updateWeight() {
+            var result = false;
             var weightArray = new Array();
             $(".weis").each(function () {
                 var id = $(this).attr("title");
@@ -117,16 +141,27 @@
             $.ajax({
                 url: "/ruleconfig/updateweights",
                 type: "POST",
+                async: false,
                 contentType: 'application/json;charset=utf-8',
                 dataType: "json",
                 data: jsonData,
                 success: function (data) {
+                    result = true;
                 }
             });
+            return result;
         }
 
-        function dataimport(){
-            window.location="/dataimport/index";
+        function dataimport() {
+            window.location = "/dataimport/index";
+        }
+
+        function grainnumberchange(data) {
+            value = data.replace(/\D+/g, '')
+            $(".grainnumber").val(data);
+        }
+        function grainchange(data) {
+            $(".grain").val(data);
         }
     </script>
     <style>
@@ -225,10 +260,11 @@
                                             <input name="timeradio${par.id}" type="radio" value="4">
                                             取最小值<span></span></label>&nbsp;</td>
                                     <td id="grain${par.id}">
-                                        <input type="text" id="gn${par.id}" style="width:35px;height:20px"  onkeyup="value=this.value.replace(/\D+/g,'')"/>
+                                        <input type="text" class="grainnumber" id="gn${par.id}"
+                                               style="width:35px;height:20px" onkeyup="grainnumberchange(this.value)"/>
                                         <label>
-                                            <select name="grain${par.id}" id="select${par.id}"
-                                                    style="width:65px; height:21px;">
+                                            <select name="grain${par.id}" id="select${par.id}" class="grain"
+                                                    style="width:65px; height:21px;" onchange="grainchange(this.value)">
                                                 <option value="0">年</option>
                                                 <option value="1">月</option>
                                                 <option value="2">日</option>
@@ -269,7 +305,8 @@
                 <td>${wei.region}</td>
                 <td>${wei.section}</td>
                 <td>${wei.device}</td>
-                <td><input type="text" value="${wei.weight}" style="width:35px;height:20px" onkeyup="value=this.value.replace(/\D+/g,'')"/></td>
+                <td><input type="text" value="${wei.weight}" style="width:35px;height:20px"
+                           onkeyup="value=this.value.replace(/\D+/g,'')"/></td>
             </tr>
         </c:forEach>
     </table>
